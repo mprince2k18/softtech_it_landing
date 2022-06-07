@@ -1,0 +1,58 @@
+{
+    "navbar": [
+        {
+            "text": "All Products",
+            "icon": "empty",
+            "href": "javascript:;",
+            "children": [
+                {
+                    "text": "Maildoll",
+                    "image": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+                    "href": "#"
+                },
+                {
+                    "text": "Khadyo",
+                    "image": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+                    "href": "#"
+                },
+                {
+                    "text": "CourseLMS",
+                    "image": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "text": "Features",
+            "icon": "empty",
+            "href": "#",
+            "target": "_self",
+            "title": "",
+            "children": []
+        },
+        {
+            "text": "Contacts",
+            "icon": "empty",
+            "href": "#",
+            "target": "_self",
+            "title": "",
+            "children": []
+        }
+    ],
+    "header": {
+        "title": "Welcome To SoftTech IT",
+        "subtitle": "A sample widget built on the Konfabulator Widget API."
+    },
+    "products": {
+        "maildoll": {
+            "image": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "name": "Maildoll - Email Marketing & SMS Marketing SaaS Application",
+            "link": "https://demo.maildoll.com"
+        },
+        "khadyo": {
+            "image": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "name": "Maildoll - Email Marketing & SMS Marketing SaaS Application",
+            "link": "https://demo.maildoll.com"
+        }
+    }
+}

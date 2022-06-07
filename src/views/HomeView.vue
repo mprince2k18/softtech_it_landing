@@ -7,68 +7,73 @@
 			==============================================
 			-->
       <div class="landing-banner" id="intro">
-        <div class="landing-menu">
-          <div class="container-fluid">
-            <div class="d-flex align-items-center justify-content-between">
-              <div class="logo order-md-1">
-                <a href="index.html"><img src="deski/images/logo/deski_01.svg" alt="" /></a>
-              </div>
-              <div class="order-md-3">
-                <a href="http://heloshape.com/" class="menu-btn more_themes font-rubik" target="_blank">More Themes</a>
+        <div class="theme-main-menu sticky-menu theme-menu-five">
+          <div class="d-flex align-items-center justify-content-center">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo/deski_06.svg" alt="" /></a>
+            </div>
 
-                <a href="https://themeforest.net/item/deski-saas-software-html-template/32742591" class="menu-btn buy-button font-rubik" target="_blank">Buy Deski</a>
-              </div>
-              <nav id="feature-menu" class="navbar navbar-expand-sm order-md-2">
-                <div class="m-auto nav-container">
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav" id="theme-menu-list">
-                      <li class="nav-item">
-                        <a href="#intro" class="nav-link">Intro</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#demo" class="nav-link">Demo</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#feature" class="nav-link">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#inner-page" class="nav-link">Inner Pages</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#choose-us" class="nav-link">Why us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#support" class="nav-link">Support</a>
+            <nav id="mega-menu-holder" class="navbar navbar-expand-lg">
+              <div class="nav-container">
+                <button class="navbar-toggler">
+                  <span></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                  <div class="d-lg-flex justify-content-between align-items-center">
+                    <ul class="navbar-nav main-side-nav font-gordita" id="one-page-nav">
+                      <li class="nav-item dropdown position-static" v-for="(nav, index) in navbar" :key="index">
+                        <a :href="nav.href" class="nav-link" :class="nav.children.length > 0 ? 'dropdown-toggle' : null"
+                          data-toggle="dropdown">{{ nav.text }}</a>
+                        <div class="dropdown-menu" v-if="nav.children.length > 0">
+                          <ul class="mega-menu d-flex">
+                            <li v-for="product in nav.children" :key="product">
+                              <a :href="product.href" class="dropdown-item img-box">
+                                <img :src="product.image" :alt="product.text" />
+                                <span class="font-rubik">{{ product.text }}</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <!-- /.container-fluid -->
-              </nav>
-              <!-- /#feature-menu -->
+              </div>
+            </nav>
+            <div class="right-widget">
+              <ul class="d-flex align-items-center">
+                <li>
+                  <a href="login.html" class="signIn-action d-flex align-items-center">
+                    <img src="images/icon/52.svg" alt="" />
+                    <span>login</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="sign-up.html" class="signup-btn"><span>Sign up</span>- It’s Free</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+        <!-- /.theme-main-menu -->
         <!-- /.landing-menu -->
 
         <div class="container">
           <div class="text-wrapper">
             <div class="row">
               <div class="col-xl-11 m-auto">
-                <h1>Deski - Saas & Software HTML + RTL Template</h1>
+                <h1>{{ title }}</h1>
               </div>
             </div>
-            <p class="font-rubik sub-text">The best site template for saas, app, landing & releted to any software company</p>
+            <p class="font-rubik sub-text">{{ subtitle }}</p>
           </div>
           <!-- /.text-wrapper -->
 
           <div class="text-center mt-5">
             <a href="rtl/deski/index.html" class="btn-one" target="_blank">RTL Version</a>
-            <small class="pt-3 d-block"
-              >For <strong>Extended License</strong> at lower price, you can
+            <small class="pt-3 d-block">For <strong>Extended License</strong> at lower price, you can
               <a href="mailto:heloshape18@gmail.com" style="text-decoration: underline">Contact</a>
-              with us.</small
-            >
+              with us.</small>
           </div>
 
           <div class="block-bg-wrapper">
@@ -110,7 +115,8 @@
 
       <div class="home-demo-section pt-90 mt-30">
         <div class="container">
-          <h2 data-aos="fade-up" data-aos-duration="1200" class="text-center pb-5 font-gilroy-bold">Deski Is Ready For RTL</h2>
+          <h2 data-aos="fade-up" data-aos-duration="1200" class="text-center pb-5 font-gilroy-bold">Deski Is Ready For
+            RTL</h2>
           <div class="row">
             <div class="col-lg-9 m-auto" data-aos="fade-up" data-aos-duration="1200">
               <div class="mix w-100 m0">
@@ -204,7 +210,8 @@
             </div>
             <!-- /.mix -->
             <div class="home-item onepage">
-              <a href="deski/index(product-landing-dark).html" class="img-meta" style="background: #282836" target="_blank">
+              <a href="deski/index(product-landing-dark).html" class="img-meta" style="background: #282836"
+                target="_blank">
                 <img src="img/home_06.jpg" alt="" />
                 <span class="view-page">Explore</span>
               </a>
@@ -234,7 +241,8 @@
             <!-- /.mix -->
 
             <div class="home-item onepage">
-              <a href="deski/index(appointment-scheduling).html" class="img-meta" style="background: #ebfcff" target="_blank">
+              <a href="deski/index(appointment-scheduling).html" class="img-meta" style="background: #ebfcff"
+                target="_blank">
                 <img src="img/home_10.jpg" alt="" />
                 <span class="view-page">Explore</span>
               </a>
@@ -355,7 +363,8 @@
               <!-- /.feature-block -->
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="100">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
+              data-aos-delay="100">
               <div class="feature-block">
                 <div class="icon d-flex justify-content-center align-items-end">
                   <img src="img/logo02.png" alt="" />
@@ -365,7 +374,8 @@
               <!-- /.feature-block -->
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
+              data-aos-delay="200">
               <div class="feature-block">
                 <div class="icon d-flex justify-content-center align-items-end">
                   <img src="img/logo03.png" alt="" />
@@ -375,7 +385,8 @@
               <!-- /.feature-block -->
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
+              data-aos-delay="300">
               <div class="feature-block">
                 <div class="icon d-flex justify-content-center align-items-end">
                   <img src="img/logo04.png" alt="" />
@@ -385,7 +396,8 @@
               <!-- /.feature-block -->
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="100">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
+              data-aos-delay="100">
               <div class="feature-block">
                 <div class="icon d-flex justify-content-center align-items-end">
                   <img src="img/logo05.png" alt="" />
@@ -395,7 +407,8 @@
               <!-- /.feature-block -->
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
+              data-aos-delay="200">
               <div class="feature-block">
                 <div class="icon d-flex justify-content-center align-items-end">
                   <img src="img/logo06.png" alt="" />
@@ -405,7 +418,8 @@
               <!-- /.feature-block -->
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
+              data-aos-delay="300">
               <div class="feature-block">
                 <div class="icon d-flex justify-content-center align-items-end">
                   <img src="img/logo07.png" alt="" />
@@ -415,7 +429,8 @@
               <!-- /.feature-block -->
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
+              data-aos-delay="400">
               <div class="feature-block">
                 <div class="icon d-flex justify-content-center align-items-end">
                   <img src="img/logo08.png" alt="" />
@@ -840,7 +855,8 @@
       <!-- /.ln-support-banner -->
 
       <div class="sketch-file-text mb-80 pb-30">
-        <div class="icon-box d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1200">
+        <div class="icon-box d-flex align-items-center justify-content-center" data-aos="fade-up"
+          data-aos-duration="1200">
           <img src="img/sketch.png" alt="" />
         </div>
         <h3 data-aos="fade-up" data-aos-duration="1200">PSD & Sketch Files Included</h3>
@@ -854,15 +870,32 @@
         <img src="img/shape21.svg" alt="" class="shapes shape-four" />
         <div class="container">
           <h1>Create your first product with deski and Start your website today!</h1>
-          <a href="https://themeforest.net/item/deski-saas-software-html-template/32742591" class="btn-one" target="_blank">Purchase Now</a>
-          <small class="pt-3 d-block"
-            >For <strong>Extended License</strong> at lower price, you can
+          <a href="https://themeforest.net/item/deski-saas-software-html-template/32742591" class="btn-one"
+            target="_blank">Purchase Now</a>
+          <small class="pt-3 d-block">For <strong>Extended License</strong> at lower price, you can
             <a href="mailto:heloshape18@gmail.com" style="text-decoration: underline">Contact</a>
-            with us.</small
-          >
+            with us.</small>
         </div>
         <img src="img/screen-02.png" alt="" class="screen" />
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import HOME_JSON from "../json/home.json";
+export default {
+  mounted() {
+    this.home = HOME_JSON;
+    console.log(this.home.navbar);
+  },
+  data() {
+    return {
+      title: HOME_JSON.header.title,
+      subtitle: HOME_JSON.header.subtitle,
+      navbar: HOME_JSON.navbar,
+      products: HOME_JSON.header.products,
+    };
+  },
+};
+</script>
