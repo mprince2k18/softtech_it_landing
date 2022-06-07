@@ -1,3 +1,3 @@
 <template>
-    <div>Manyvendor</div>
+  <div>Manyvendor</div>
 </template>

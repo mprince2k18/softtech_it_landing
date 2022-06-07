@@ -1,3 +1,3 @@
 <template>
-    <div>CLMS</div>
+  <div>CLMS</div>
 </template>

@@ -1,3 +1,3 @@
 <template>
-    <div>AutomateFood</div>
+  <div>AutomateFood</div>
 </template>

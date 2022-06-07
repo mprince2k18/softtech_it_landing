@@ -1,3 +1,3 @@
 <template>
-    <div>Khadyo</div>
+  <div>Khadyo</div>
 </template>

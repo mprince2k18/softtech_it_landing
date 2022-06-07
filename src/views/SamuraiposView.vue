@@ -1,3 +1,3 @@
 <template>
-    <div>SamuraiPOS</div>
+  <div>SamuraiPOS</div>
 </template>

@@ -1,3 +1,3 @@
 <template>
-    <div>Maildoll</div>
+  <div>Maildoll</div>
 </template>
