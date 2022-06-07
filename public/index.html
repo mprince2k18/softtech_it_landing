@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta charset="UTF-8">
+		<meta name="keywords" content="Digital marketing agency, Digital marketing company, Digital marketing services, sass, software company">
+		<meta name="author" content="creativegigs">
+		<meta name="description" content="Deski is a creative saas and software html template designed for saas and software Agency websites.">
+		<meta name='og:image' content='deski/images/assets/ogg.png'>
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="/favicon.ico">
+
+		<!-- Aos -->
+		<link rel="stylesheet" type="text/css" href="/deski/vendor/aos-next/dist/aos.css">
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="/style.css">
   </head>
   <body>
     <noscript>
@@ -13,5 +26,74 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <!-- Js File_________________________________ -->
+
+		<!-- j Query -->
+		<script src="/deski/vendor/jquery.min.js"></script>
+		<!-- Popper js -->
+		<script src="/deski/vendor/popper.js/popper.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="/deski/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Vendor js _________ -->
+	    <!-- AOS js -->
+		<script src="/deski/vendor/aos-next/dist/aos.js"></script>
+		<!-- MixIt Up -->
+		<script src="/deski/vendor/mixitup-3/mixitup.min.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="/deski/js/theme.js"></script>
+
+		<script>
+			$('#theme-menu-list a').on('click', function(){
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                $('html, body').animate({
+                  scrollTop: (target.offset().top - 0)
+                }, 800);
+                return false;
+              }
+            }
+          });
+
+			$('body').scrollspy({
+	          target: 'body',
+	          offset: 70
+	        });
+
+
+
+	        $(window).on('scroll', function (){   
+	          var sticky = $('.landing-menu'),
+	          scroll = $(window).scrollTop();
+	          if (scroll >= 100) sticky.addClass('fixed');
+	          else sticky.removeClass('fixed');
+
+	        });
+
+
+	        if ($(".mixitUp-containerOne").length) {
+	          var containerEl = document.querySelector('.mixitUp-containerOne');
+	          var mixerOne = mixitup(containerEl, {
+					selectors: {
+				        control: '.control',
+				        target: '.home-item'
+				    }
+				});
+	        };
+
+
+	        if ($(".mixitUp-containerTwo").length) {
+	          var containerTR = document.querySelector('.mixitUp-containerTwo');
+	          var mixerTwo = mixitup(containerTR, {
+				    selectors: {
+				        control: '.controlr'
+				    }
+				});
+	        };
+
+		</script>
   </body>
 </html>
