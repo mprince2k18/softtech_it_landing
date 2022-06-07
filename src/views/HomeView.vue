@@ -132,17 +132,6 @@
       </div>
       <!-- /.landing-banner -->
 
-      <!-- <div class="page-speed text-center pt-90">
-				<div class="container">
-					<h2 style="font-family: 'gilroy-bold';">96% Fatser Load Time on Google Page Speed</h2>
-					<div class="row">
-						<div class="col-lg-9 m-auto">
-							<img src="img/deski-page-speed.png" alt="" class="mt-5">
-						</div>
-					</div>
-				</div>
-			</div> -->
-
       <div class="home-demo-section pt-90 mt-30">
         <div class="container">
           <h2
