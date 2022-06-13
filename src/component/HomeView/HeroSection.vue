@@ -87,24 +87,23 @@
         <div class="row">
           <div class="col-md-4">
             <div class="single-block">
-              <div class="num font-rubik" style="color: #5cd0a7">15</div>
-              <p class="font-rubik">Home different<br />pages</p>
+              <div class="num font-rubik" style="color: #5cd0a7">{{ total_application }}</div>
+              <p class="font-rubik">{{ total_application_subtitle }}</p>
             </div>
             <!-- /.single-block -->
           </div>
           <div class="col-md-4">
             <div class="single-block border-style">
-              <div class="num font-rubik" style="color: #ff7373">59+</div>
-              <p class="font-rubik">Beautiful inner<br />pages</p>
+              <div class="num font-rubik" style="color: #ff7373">{{ total_addons }}</div>
+              <p class="font-rubik">{{ total_addons_title }}</p>
             </div>
             <!-- /.single-block -->
           </div>
           <div class="col-md-4">
             <div class="single-block">
-              <div class="num font-rubik" style="color: #8b50ff">04</div>
+              <div class="num font-rubik" style="color: #8b50ff">{{ total_saas }}</div>
               <p class="font-rubik">
-                Beautiful docs for your<br />
-                APIs, Products
+                {{ total_saas_title }}
               </p>
             </div>
             <!-- /.single-block -->
@@ -124,10 +123,6 @@
 import HOME_JSON from "../../json/home.json";
 
 export default {
-  mounted() {
-    this.home = HOME_JSON;
-    console.log(this.home.navbar);
-  },
   data() {
     return {
       title: HOME_JSON.header.title,
@@ -135,6 +130,12 @@ export default {
       navbar: HOME_JSON.navbar,
       products: HOME_JSON.header.products,
       contact: HOME_JSON.header.contact,
+      total_application: HOME_JSON.info.total_application,
+      total_application_subtitle: HOME_JSON.info.total_application_subtitle,
+      total_addons: HOME_JSON.info.total_addons,
+      total_addons_title: HOME_JSON.info.total_addons_title,
+      total_saas: HOME_JSON.info.total_saas,
+      total_saas_title: HOME_JSON.info.total_saas_title,
     };
   },
 };

@@ -37,16 +37,9 @@ import FooterLayout from "../layout/FooterLayout.vue";
 import HOME_JSON from "../json/home.json";
 
 export default {
-  mounted() {
-    this.home = HOME_JSON;
-    console.log(this.home.navbar);
-  },
   data() {
     return {
-      title: HOME_JSON.header.title,
-      subtitle: HOME_JSON.header.subtitle,
-      navbar: HOME_JSON.navbar,
-      products: HOME_JSON.header.products,
+      //
     };
   },
 };

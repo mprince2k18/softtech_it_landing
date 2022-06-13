@@ -7,21 +7,20 @@
           <span>All Of Our Applications <img src="img/line01.svg" alt="" /></span>
         </h2>
         <p class="font-rubik txt-lg">
-          You will get over <span>6 Applications</span> from
+          You will get over <span>{{ total_application }} Applications</span> from
           <span style="color: #ff7373">SoftTech-IT</span>
         </p>
       </div>
 
       <div class="mixitUp-containerOne mt-4 pt-4">
 
-        
-        <div class="home-item event">
-          <a href="deski/index-event.html" class="img-meta" style="background: #ffebdd" target="_blank">
-            <img src="img/home_01.jpg" alt="" />
+
+        <div class="home-item event" v-for="(product, index) in products" :key="index">
+          <a :href="product.link" class="img-meta" style="background: #ffebdd" target="_blank">
+            <img :src="product.image" :alt="product.text" />
             <span class="view-page">Explore</span>
           </a>
-          <div class="page-name font-rubik">Event Organiser</div>
-          <div class="page-category font-rubik">Event, Event planner, Management</div>
+          <div class="page-name font-rubik">{{ product.name }}</div>
         </div>
         <!-- /.mix -->
 
@@ -34,3 +33,19 @@
     </div>
   </div>
 </template>
+
+<script>
+import HOME_JSON from "../../json/home.json";
+
+export default {
+  mounted(){
+    console.log(HOME_JSON.products);
+  },
+  data() {
+    return {
+      total_application: HOME_JSON.info.total_application,
+      products: HOME_JSON.products,
+    };
+  },
+};
+</script>
