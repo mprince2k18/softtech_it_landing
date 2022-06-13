@@ -1,12 +1,6 @@
 import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import AutomateFoodView from "../views/AutomateFoodView.vue";
-import AutomateMailView from "../views/AutomateMailView.vue";
-import CourselmsView from "../views/CourselmsView.vue";
-import KhadyoView from "../views/KhadyoView.vue";
 import MaildollView from "../views/MaildollView.vue";
-import ManyvendorView from "../views/ManyvendorView.vue";
-import SamuraiposView from "../views/SamuraiposView.vue";
 
 const routes = [
   {
@@ -17,22 +11,22 @@ const routes = [
   {
     path: "/automatefood",
     name: "automatefood",
-    component: AutomateFoodView,
+    component: MaildollView,
   },
   {
     path: "/automatemail",
     name: "automatemail",
-    component: AutomateMailView,
+    component: MaildollView,
   },
   {
     path: "/courselms",
     name: "courselms",
-    component: CourselmsView,
+    component: MaildollView,
   },
   {
     path: "/khadyo",
     name: "khadyo",
-    component: KhadyoView,
+    component: MaildollView,
   },
   {
     path: "/maildoll",
@@ -42,12 +36,12 @@ const routes = [
   {
     path: "/manyvendor",
     name: "manyvendor",
-    component: ManyvendorView,
+    component: MaildollView,
   },
   {
     path: "/samuraipos",
     name: "samuraipos",
-    component: SamuraiposView,
+    component: MaildollView,
   },
 ];
 
