@@ -4,24 +4,12 @@
       <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo order-md-1">
-            <a href="index.html"
-              ><img src="deski/images/logo/deski_01.svg" alt=""
-            /></a>
+            <a href="index.html"><img src="deski/images/logo/deski_01.svg" alt="" /></a>
           </div>
           <div class="order-md-3">
-            <a
-              href="http://heloshape.com/"
-              class="menu-btn more_themes font-rubik"
-              target="_blank"
-              >More Themes</a
-            >
+            <a href="http://heloshape.com/" class="menu-btn more_themes font-rubik" target="_blank">More Themes</a>
 
-            <a
-              href="https://themeforest.net/item/deski-saas-software-html-template/32742591"
-              class="menu-btn buy-button font-rubik"
-              target="_blank"
-              >Buy Deski</a
-            >
+            <a href="https://themeforest.net/item/deski-saas-software-html-template/32742591" class="menu-btn buy-button font-rubik" target="_blank">Buy Deski</a>
           </div>
           <nav id="feature-menu" class="navbar navbar-expand-sm order-md-2">
             <div class="m-auto nav-container">
@@ -63,24 +51,15 @@
             <h1>Deski - Saas & Software HTML + RTL Template</h1>
           </div>
         </div>
-        <p class="font-rubik sub-text">
-          The best site template for saas, app, landing & releted to any
-          software company
-        </p>
+        <p class="font-rubik sub-text">The best site template for saas, app, landing & releted to any software company</p>
       </div>
       <!-- /.text-wrapper -->
 
       <div class="text-center mt-5">
-        <a href="rtl/deski/index.html" class="btn-one" target="_blank"
-          >RTL Version</a
-        >
+        <a href="rtl/deski/index.html" class="btn-one" target="_blank">RTL Version</a>
         <small class="pt-3 d-block"
           >For <strong>Extended License</strong> at lower price, you can
-          <a
-            href="mailto:heloshape18@gmail.com"
-            style="text-decoration: underline"
-            >Contact</a
-          >
+          <a href="mailto:heloshape18@gmail.com" style="text-decoration: underline">Contact</a>
           with us.</small
         >
       </div>
