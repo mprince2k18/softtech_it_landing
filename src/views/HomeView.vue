@@ -1,4 +1,3 @@
-
 <script setup>
 import Preloader from "../preloader/Preloader.vue";
 import HeroSection from "../component/HomeView/HeroSection.vue";
@@ -11,7 +10,7 @@ import FooterLayout from "../layout/FooterLayout.vue";
 </script>
 
 <template>
-  <div class="main-page-wrapper feature-page home-page-one">
+  <div class="main-page-wrapper feature-page home-page-one pt-0">
     <!-- Preloader -->
     <Preloader />
     <!-- Feature Banner -->
