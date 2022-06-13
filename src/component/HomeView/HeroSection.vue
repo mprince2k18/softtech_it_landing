@@ -23,10 +23,11 @@
                     <div class="dropdown-menu softtech-dropdown mt-30 mx-auto" v-if="nav.children.length > 0">
                       <ul class="mega-menu d-flex">
                         <li v-for="product in nav.children" :key="product">
-                          <a :href="product.href" class="dropdown-item img-box">
+                          <router-link :to="{ name: 'software', params: { 'software': product.slug } }"
+                            class="dropdown-item img-box">
                             <img :src="product.image" :alt="product.text" class="rounded" />
                             <span class="font-rubik">{{ product.text }}</span>
-                          </a>
+                          </router-link>
                         </li>
                       </ul>
                     </div>
