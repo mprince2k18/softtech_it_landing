@@ -1,8 +1,3 @@
-<!-- <script setup>
-@import "../../public/deski/css/style.css";
-@import "../../public/deski/css/responsive.css";
-</script> -->
-
 <template>
   <div class="main-page-wrapper font-gordita">
     <!-- 
