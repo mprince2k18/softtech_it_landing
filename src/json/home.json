@@ -55,5 +55,13 @@
             "name": "Maildoll - Email Marketing & SMS Marketing SaaS Application",
             "link": "https://demo.maildoll.com"
         }
+    },
+    "info": {
+        "total_application": "6",
+        "total_application_subtitle": "Total Applications",
+        "total_addons": "7",
+        "total_addons_title": "Addons Available",
+        "total_saas": "2",
+        "total_saas_title": "SaaS applications"
     }
 }
