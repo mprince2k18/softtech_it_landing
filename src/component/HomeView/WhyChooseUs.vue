@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-lg-8 m-auto" data-aos="fade-up" data-aos-duration="1200">
             <h2>
-              Why choose deski for <br /><span>your project<img src="img/line04.svg" alt="" /></span>
+              Why choose <span>SoftTech-IT<img src="img/line04.svg" alt="" /></span>
             </h2>
           </div>
         </div>

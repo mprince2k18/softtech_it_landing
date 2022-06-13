@@ -63,5 +63,47 @@
         "total_addons_title": "Addons Available",
         "total_saas": "2",
         "total_saas_title": "SaaS applications"
+    },
+    "technologies": {
+        "fonts": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "Google fonts",
+            "sl": 1
+        },
+        "bootstrap": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "Bootstrap",
+            "sl": 2
+        },
+        "jquery": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "jQuery",
+            "sl": 3
+        },
+        "react": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "ReactJS",
+            "sl": 4
+        },
+        "vue": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "VueJS",
+            "sl": 5
+        },
+        "tailwind": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "TailwindCSS",
+            "sl": 6
+        },
+        "laravel": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "Laravel",
+            "sl": 7
+        },
+        "flutter": {
+            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "title": "Flutter",
+            "sl": 8
+        }
     }
 }
