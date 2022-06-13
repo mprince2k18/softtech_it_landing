@@ -41,7 +41,8 @@
     ],
     "header": {
         "title": "Welcome To SoftTech IT",
-        "subtitle": "A sample widget built on the Konfabulator Widget API."
+        "subtitle": "A sample widget built on the Konfabulator Widget API.",
+        "contact" : "http://softtechitsupport.com"
     },
     "products": {
         "maildoll": {

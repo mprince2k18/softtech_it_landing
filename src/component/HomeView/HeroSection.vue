@@ -4,46 +4,29 @@
       <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo order-md-1">
-            <a href="index.html"
-              ><img src="deski/images/logo/deski_01.svg" alt=""
-            /></a>
+            <a href="index.html"><img src="deski/images/logo/deski_01.svg" alt="" /></a>
           </div>
           <div class="order-md-3">
-            <a
-              href="http://heloshape.com/"
-              class="menu-btn more_themes font-rubik"
-              target="_blank"
-              >More Themes</a
-            >
-
-            <a
-              href="https://themeforest.net/item/deski-saas-software-html-template/32742591"
-              class="menu-btn buy-button font-rubik"
-              target="_blank"
-              >Buy Deski</a
-            >
+            <a href="https://codecanyon.net/user/softtech-it/portfolio" class="menu-btn buy-button font-rubik"
+              target="_blank">Envato Profile</a>
           </div>
           <nav id="feature-menu" class="navbar navbar-expand-sm order-md-2">
             <div class="m-auto nav-container">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" id="theme-menu-list">
-                  <li class="nav-item">
-                    <a href="#intro" class="nav-link">Intro</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#demo" class="nav-link">Demo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#feature" class="nav-link">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#inner-page" class="nav-link">Inner Pages</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#choose-us" class="nav-link">Why us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#support" class="nav-link">Support</a>
+                  <li class="nav-item dropdown position-static" v-for="(nav, index) in navbar" :key="index">
+                    <a :href="nav.href" class="nav-link" :class="nav.children.length > 0 ? 'dropdown-toggle' : null"
+                      data-toggle="dropdown">{{ nav.text }}</a>
+                    <div class="dropdown-menu" v-if="nav.children.length > 0">
+                      <ul class="mega-menu d-flex">
+                        <li v-for="product in nav.children" :key="product">
+                          <a :href="product.href" class="dropdown-item img-box">
+                            <img :src="product.image" :alt="product.text" />
+                            <span class="font-rubik">{{ product.text }}</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -60,29 +43,20 @@
       <div class="text-wrapper">
         <div class="row">
           <div class="col-xl-11 m-auto">
-            <h1>Deski - Saas & Software HTML + RTL Template</h1>
+            <h1>{{ title }}</h1>
           </div>
         </div>
         <p class="font-rubik sub-text">
-          The best site template for saas, app, landing & releted to any
-          software company
+          {{ subtitle }}
         </p>
       </div>
       <!-- /.text-wrapper -->
 
       <div class="text-center mt-5">
-        <a href="rtl/deski/index.html" class="btn-one" target="_blank"
-          >RTL Version</a
-        >
-        <small class="pt-3 d-block"
-          >For <strong>Extended License</strong> at lower price, you can
-          <a
-            href="mailto:heloshape18@gmail.com"
-            style="text-decoration: underline"
-            >Contact</a
-          >
-          with us.</small
-        >
+        <a href="#demo" class="btn-one">See Demo</a>
+        <small class="pt-3 d-block">For <strong>Software Customisation</strong> at lower price, you can
+          <a :href="contact" target="_blank" style="text-decoration: underline">Contact</a>
+          with us.</small>
       </div>
 
       <div class="block-bg-wrapper">
@@ -121,3 +95,23 @@
     <img src="img/shape04.svg" alt="" class="shape shape-four" />
   </div>
 </template>
+
+<script>
+import HOME_JSON from "../../json/home.json";
+
+export default {
+  mounted() {
+    this.home = HOME_JSON;
+    console.log(this.home.navbar);
+  },
+  data() {
+    return {
+      title: HOME_JSON.header.title,
+      subtitle: HOME_JSON.header.subtitle,
+      navbar: HOME_JSON.navbar,
+      products: HOME_JSON.header.products,
+      contact: HOME_JSON.header.contact,
+    };
+  },
+};
+</script>

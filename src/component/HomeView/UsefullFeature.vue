@@ -11,11 +11,7 @@
     </div>
     <div class="main-wrapper">
       <div class="row justify-content-center">
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo01.png" alt="" />
@@ -25,12 +21,7 @@
           <!-- /.feature-block -->
         </div>
 
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          data-aos-delay="100"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="100">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo02.png" alt="" />
@@ -40,12 +31,7 @@
           <!-- /.feature-block -->
         </div>
 
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          data-aos-delay="200"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo03.png" alt="" />
@@ -55,12 +41,7 @@
           <!-- /.feature-block -->
         </div>
 
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          data-aos-delay="300"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo04.png" alt="" />
@@ -70,12 +51,7 @@
           <!-- /.feature-block -->
         </div>
 
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          data-aos-delay="100"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="100">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo05.png" alt="" />
@@ -85,12 +61,7 @@
           <!-- /.feature-block -->
         </div>
 
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          data-aos-delay="200"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo06.png" alt="" />
@@ -100,12 +71,7 @@
           <!-- /.feature-block -->
         </div>
 
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          data-aos-delay="300"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo07.png" alt="" />
@@ -115,12 +81,7 @@
           <!-- /.feature-block -->
         </div>
 
-        <div
-          class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30"
-          data-aos="zoom-in"
-          data-aos-duration="1200"
-          data-aos-delay="400"
-        >
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img src="img/logo08.png" alt="" />
