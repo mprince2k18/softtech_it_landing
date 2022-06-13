@@ -8,9 +8,9 @@
           <div class="col-lg-8 m-auto">
             <p class="font-rubik">
               Need techical help? Do not hesitate to send us a message via our
-              <a href="https://creativegigs.ticksy.com/" target="_blank">support system</a>. We're happy to help.
+              <a href="http://softtechitsupport.com" target="_blank">support system</a>. We're happy to help.
             </p>
-            <a href="https://creativegigs.ticksy.com/" class="btn-one" target="_blank">Go to support</a>
+            <a href="http://softtechitsupport.com" class="btn-one" target="_blank">Go to support</a>
           </div>
         </div>
         <img src="img/shape14.svg" alt="" class="shape" />

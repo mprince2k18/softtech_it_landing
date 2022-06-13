@@ -16,8 +16,8 @@
 
 
         <div class="home-item event" v-for="(product, index) in products" :key="index">
-          <a :href="product.link" class="img-meta" style="background: #ffebdd" target="_blank">
-            <img :src="product.image" :alt="product.text" />
+          <a :href="product.link" class="img-meta" style="background: #f1f2f6" target="_blank">
+            <img :src="product.image" :alt="product.text" class="rounded" />
             <span class="view-page">Explore</span>
           </a>
           <div class="page-name font-rubik">{{ product.name }}</div>

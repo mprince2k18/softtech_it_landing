@@ -6,7 +6,7 @@
     <img src="img/shape11.svg" alt="" class="shapes shape-four" />
     <div class="main-title text-center">
       <h2>
-        <span>Useful Features <img src="img/line02.svg" alt="" /></span>
+        <span>Technologies We Use <img src="img/line02.svg" alt="" /></span>
       </h2>
     </div>
     <div class="main-wrapper">
@@ -14,7 +14,7 @@
 
 
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
-          v-for="technology in technologies" :key="technology">
+          v-for="(technology, index) in technologies" :key="index">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img :src="technology.icon" :alt="technology.title" />
