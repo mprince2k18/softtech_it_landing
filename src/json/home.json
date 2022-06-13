@@ -4,6 +4,7 @@
             "text": "All Products",
             "icon": "empty",
             "href": "javascript:;",
+            "target": "_self",
             "children": [
                 {
                     "text":  "Maildoll - Email Marketing & SMS Marketing SaaS Application",
@@ -38,25 +39,25 @@
             ]
         },
         {
-            "text": "Features",
+            "text": "Facebook Page",
             "icon": "empty",
-            "href": "#",
-            "target": "_self",
-            "title": "",
+            "href": "https://www.facebook.com/SoftTech-IT-Software-104695582270624",
+            "target": "_blank",
+            "title": "Facebook Page",
             "children": []
         },
         {
-            "text": "Contacts",
+            "text": "Contact with us",
             "icon": "empty",
-            "href": "#",
-            "target": "_self",
-            "title": "",
+            "href": "https://softtechitsupport.com",
+            "target": "_blank",
+            "title": "Contacts",
             "children": []
         }
     ],
     "header": {
-        "title": "Welcome To SoftTech IT",
-        "subtitle": "A sample widget built on the Konfabulator Widget API.",
+        "title": "Welcome To SoftTech-IT, All You Need Is A Software And A Dream.",
+        "subtitle": "Strong and Beautiful, Just Like software. software  will solve all of your troubles.",
         "contact" : "http://softtechitsupport.com"
     },
     "products": {
@@ -97,46 +98,46 @@
         "total_addons": "7",
         "total_addons_title": "Addons Available",
         "total_saas": "2",
-        "total_saas_title": "SaaS applications"
+        "total_saas_title": "SaaS Applications"
     },
     "technologies": {
         "laravel": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985836992459866182/laravel.png",
             "title": "Laravel",
             "sl": 1
         },
         "bootstrap": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985836940744073216/bootstrap.png",
             "title": "Bootstrap",
             "sl": 3
         },
         "jquery": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985836982032793621/jquery.png",
             "title": "jQuery",
             "sl": 2
         },
         "react": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985837001112711188/react.png",
             "title": "ReactJS",
             "sl": 4
         },
         "vue": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985837019739594812/vew.png",
             "title": "VueJS",
             "sl": 5
         },
         "tailwind": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985837011275509780/tailwind.png",
             "title": "TailwindCSS",
             "sl": 6
         },
         "flutter": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985836958473388052/flutter.png",
             "title": "Flutter",
             "sl": 8
         },
         "fonts": {
-            "icon": "https://html.creativegigstf.com/deski/deski/images/menu/home01.png",
+            "icon": "https://cdn.discordapp.com/attachments/985836867494764584/985836968686542868/google-font.png",
             "title": "Google fonts",
             "sl": 7
         }

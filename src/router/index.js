@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import AutomateFoodView from "../views/AutomateFoodView.vue";
 import AutomateMailView from "../views/AutomateMailView.vue";
@@ -52,7 +52,9 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  mode: 'history',
+  hash: false,
+  history: createWebHistory(),
   routes,
 });
 
