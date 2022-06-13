@@ -8,7 +8,7 @@
     <!-- ===================================================
 				Loading Transition
 			==================================================== -->
-    <section>
+    <!-- <section>
       <div id="preloader">
         <div id="ctn-preloader" class="ctn-preloader">
           <div class="animation-preloader">
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- 
 			=============================================
@@ -33,7 +33,9 @@
     <div class="theme-main-menu sticky-menu theme-menu-five">
       <div class="d-flex align-items-center justify-content-center">
         <div class="logo">
-          <a href="index.html"><img src="images/logo/deski_06.svg" alt="" /></a>
+          <a href="index.html"
+            ><img src="deski/images/logo/deski_06.svg" alt=""
+          /></a>
         </div>
 
         <nav id="mega-menu-holder" class="navbar navbar-expand-lg">
@@ -61,7 +63,7 @@
                             href="index-event.html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home01.png" alt="" />
+                            <img src="deski/images/menu/home01.png" alt="" />
                             <span class="font-rubik">Event Organiser</span>
                           </a>
                         </li>
@@ -70,13 +72,13 @@
                             href="index-doc.html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home02.png" alt="" />
+                            <img src="deski/images/menu/home02.png" alt="" />
                             <span class="font-rubik">Doc landing</span>
                           </a>
                         </li>
                         <li>
                           <a href="index.html" class="dropdown-item img-box">
-                            <img src="images/menu/home03.png" alt="" />
+                            <img src="deski/images/menu/home03.png" alt="" />
                             <span class="font-rubik">Project Management</span>
                           </a>
                         </li>
@@ -85,7 +87,7 @@
                             href="index-customer-support.html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home04.png" alt="" />
+                            <img src="deski/images/menu/home04.png" alt="" />
                             <span class="font-rubik">Customer Support</span>
                           </a>
                         </li>
@@ -94,7 +96,7 @@
                             href="index(product-landing).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home05.png" alt="" />
+                            <img src="deski/images/menu/home05.png" alt="" />
                             <span class="font-rubik">Product landing</span>
                           </a>
                         </li>
@@ -103,7 +105,7 @@
                             href="index(product-landing-dark).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home06.png" alt="" />
+                            <img src="deski/images/menu/home06.png" alt="" />
                             <span class="font-rubik">Product landing Dark</span>
                           </a>
                         </li>
@@ -112,7 +114,7 @@
                             href="index(note-taking).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home07.png" alt="" />
+                            <img src="deski/images/menu/home07.png" alt="" />
                             <span class="font-rubik"
                               >Note Taking App landing</span
                             >
@@ -123,7 +125,7 @@
                             href="index(video-editor).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home08.png" alt="" />
+                            <img src="deski/images/menu/home08.png" alt="" />
                             <span class="font-rubik">Video Editor Landing</span>
                           </a>
                         </li>
@@ -132,7 +134,7 @@
                             href="index(appointment-scheduling).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home10.png" alt="" />
+                            <img src="deski/images/menu/home10.png" alt="" />
                             <span class="font-rubik"
                               >Appointment Scheduling</span
                             >
@@ -143,7 +145,7 @@
                             href="index(mobile-appV1).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home11.png" alt="" />
+                            <img src="deski/images/menu/home11.png" alt="" />
                             <span class="font-rubik">Mobile App Landing</span>
                           </a>
                         </li>
@@ -152,7 +154,7 @@
                             href="index(doc-signature).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home12.png" alt="" />
+                            <img src="deski/images/menu/home12.png" alt="" />
                             <span class="font-rubik"
                               >Doc Signature Landing</span
                             >
@@ -163,7 +165,7 @@
                             href="index(webiste-builder).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home13.png" alt="" />
+                            <img src="deski/images/menu/home13.png" alt="" />
                             <span class="font-rubik">Website Builder</span>
                           </a>
                         </li>
@@ -172,7 +174,7 @@
                             href="index(form-survey).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home14.png" alt="" />
+                            <img src="deski/images/menu/home14.png" alt="" />
                             <span class="font-rubik">Form & Survey</span>
                           </a>
                         </li>
@@ -181,7 +183,7 @@
                             href="index(vr).html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home16.png" alt="" />
+                            <img src="deski/images/menu/home16.png" alt="" />
                             <span class="font-rubik">VR Landing</span>
                           </a>
                         </li>
@@ -190,13 +192,13 @@
                             href="coming-soon-v1.html"
                             class="dropdown-item img-box"
                           >
-                            <img src="images/menu/home09.png" alt="" />
+                            <img src="deski/images/menu/home09.png" alt="" />
                             <span class="font-rubik">Coming Soon</span>
                           </a>
                         </li>
                         <li>
                           <div class="img-box">
-                            <img src="images/menu/home15.png" alt="" />
+                            <img src="deski/images/menu/home15.png" alt="" />
                             <div
                               class="hover d-flex align-items-center justify-content-center"
                             >
@@ -233,7 +235,7 @@
                 href="login.html"
                 class="signIn-action d-flex align-items-center"
               >
-                <img src="images/icon/52.svg" alt="" />
+                <img src="deski/images/icon/52.svg" alt="" />
                 <span>login</span>
               </a>
             </li>
@@ -283,51 +285,101 @@
               <div
                 class="img-meta d-flex align-items-center justify-content-center"
               >
-                <img src="images/logo/logo-1.png" alt="" />
+                <img src="deski/images/logo/logo-1.png" alt="" />
               </div>
             </div>
             <div class="item">
               <div
                 class="img-meta d-flex align-items-center justify-content-center"
               >
-                <img src="images/logo/logo-2.png" alt="" />
+                <img src="deski/images/logo/logo-2.png" alt="" />
               </div>
             </div>
             <div class="item">
               <div
                 class="img-meta d-flex align-items-center justify-content-center"
               >
-                <img src="images/logo/logo-3.png" alt="" />
+                <img src="deski/images/logo/logo-3.png" alt="" />
               </div>
             </div>
             <div class="item">
               <div
                 class="img-meta d-flex align-items-center justify-content-center"
               >
-                <img src="images/logo/logo-4.png" alt="" />
+                <img src="deski/images/logo/logo-4.png" alt="" />
               </div>
             </div>
             <div class="item">
               <div
                 class="img-meta d-flex align-items-center justify-content-center"
               >
-                <img src="images/logo/logo-6.png" alt="" />
+                <img src="deski/images/logo/logo-6.png" alt="" />
               </div>
             </div>
             <div class="item">
               <div
                 class="img-meta d-flex align-items-center justify-content-center"
               >
-                <img src="images/logo/logo-3.png" alt="" />
+                <img src="deski/images/logo/logo-3.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- /.partner-slider-two -->
-      <img src="images/shape/173.svg" alt="" class="shapes shape-right" />
-      <img src="images/shape/174.svg" alt="" class="shapes shape-left" />
+      <img src="deski/images/shape/173.svg" alt="" class="shapes shape-right" />
+      <img src="deski/images/shape/174.svg" alt="" class="shapes shape-left" />
     </div>
     <!-- /.hero-banner-eight -->
+
+    <!-- fancy text block -->
+    <div class="fancy-text-block-sixteen mt-200 md-mt-80">
+      <div class="container">
+        <div class="img-slick-slider">
+          <div class="item">
+            <img src="deski/images/assets/feature-img-12.png" alt="" />
+          </div>
+          <div class="item">
+            <img src="deski/images/assets/feature-img-12.png" alt="" />
+          </div>
+          <div class="item">
+            <img src="deski/images/assets/feature-img-12.png" alt="" />
+          </div>
+        </div>
+
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-4">
+            <div class="block-style-eleven mt-40">
+              <div class="num font-rubik">01</div>
+              <div class="title">Personal Notes</div>
+              <p class="font-rubik">
+                A place to think and track ideas for you and your team
+              </p>
+            </div>
+            <!-- /.block-style-eleven -->
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="block-style-eleven mt-40">
+              <div class="num font-rubik">02</div>
+              <div class="title">Knowledge Base</div>
+              <p class="font-rubik">
+                A home for your team, best practices and thoughts.
+              </p>
+            </div>
+            <!-- /.block-style-eleven -->
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="block-style-eleven mt-40">
+              <div class="num font-rubik">03</div>
+              <div class="title">Products Doc</div>
+              <p class="font-rubik">
+                Beautiful docs for your APIs, Products, FAQs, & User Guides,
+              </p>
+            </div>
+            <!-- /.block-style-eleven -->
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
