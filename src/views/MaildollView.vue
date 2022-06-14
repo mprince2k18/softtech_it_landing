@@ -53,7 +53,9 @@
           <div class="col-lg-10 m-auto">
             <h1 class="hero-heading">{{ header.title }}</h1>
             <p class="hero-sub-heading">{{ header.subtitle }}</p>
-            <a :href="header.demo_link" target="_blank" class="theme-btn-nine">Try Demo</a>
+            <a :href="header.demo_link" target="_blank" class="theme-btn-nine py-1">See Demo Now</a>
+            <br>
+            <a href="http://softtechitsupport.com" target="_blank" class="mt-4">Ask For Full Access Of The Demo</a>
           </div>
         </div>
 
@@ -161,7 +163,7 @@
                   <li v-for="list in price.features" :key="list">{{ list }}</li>
                 </ul>
                 <a :href="price.purchase_link" target="_blank" class="subscribe-btn font-rubik">Purchase {{ price.title
-                  }}</a>
+                }}</a>
               </div> <!-- /.pr-table-wrapper -->
             </div>
 
@@ -368,7 +370,7 @@
           <div class="col-xl-8 col-lg-11 m-auto" data-aos="fade-up" data-aos-duration="1200">
             <div class="title-style-seven text-center">
               <h2><span>{{ header.total_clients }}</span> Customers have our <span class="text-uppercase">{{
-                  software_name }}</span>. <br>Try it
+              software_name }}</span>. <br>Try it
                 now!</h2>
               <p>Try it risk free — we provide full access of the demo.</p>
             </div>
