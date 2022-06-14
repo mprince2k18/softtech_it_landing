@@ -4,29 +4,24 @@
       <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo order-md-1">
-            <router-link :to="{ 'name' : home }"><img
-                src="https://cdn.discordapp.com/attachments/985836867494764584/985845411422011392/logo.png" alt="" />
-            </router-link>
+            <router-link :to="{ name: home }"><img src="https://cdn.discordapp.com/attachments/985836867494764584/985845411422011392/logo.png" alt="" /> </router-link>
           </div>
           <div class="order-md-3">
-            <a href="https://codecanyon.net/user/softtech-it/portfolio" class="menu-btn buy-button font-rubik"
-              target="_blank">Envato Profile</a>
+            <a href="https://codecanyon.net/user/softtech-it/portfolio" class="menu-btn buy-button font-rubik" target="_blank">Envato Profile</a>
           </div>
           <nav id="mega-menu-holder" class="navbar navbar-expand-sm order-md-2">
             <div class="m-auto nav-container">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" id="theme-menu-list">
                   <li class="nav-item dropdown position-static" v-for="(nav, index) in navbar" :key="index">
-                    <a :href="nav.href" :target="nav.target" class="nav-link" :class="
-                      nav.children.length > 0 ? 'dropdown-toggle' : null
-                    ">{{ nav.text }}</a>
+                    <a :href="nav.href" :target="nav.target" class="nav-link" :class="nav.children.length > 0 ? 'dropdown-toggle' : null">{{ nav.text }}</a>
                     <div class="dropdown-menu softtech-dropdown mt-30 mx-auto" v-if="nav.children.length > 0">
                       <ul class="mega-menu d-flex">
                         <li v-for="product in nav.children" :key="product">
-                          <a :href="product.href" class="dropdown-item img-box">
+                          <router-link :to="{ name: 'software', params: { software: product.slug } }" class="dropdown-item img-box">
                             <img :src="product.image" :alt="product.text" class="rounded" />
                             <span class="font-rubik">{{ product.text }}</span>
-                          </a>
+                          </router-link>
                         </li>
                       </ul>
                     </div>
@@ -57,9 +52,11 @@
 
       <div class="text-center mt-5">
         <a href="#demo" class="btn-one">See Demos</a>
-        <small class="pt-3 d-block">For <strong>Software Customisation</strong> at lower price, you can
+        <small class="pt-3 d-block"
+          >For <strong>Software Customisation</strong> at lower price, you can
           <a :href="contact" target="_blank" style="text-decoration: underline">Contact</a>
-          with us.</small>
+          with us.</small
+        >
       </div>
 
       <div class="block-bg-wrapper">

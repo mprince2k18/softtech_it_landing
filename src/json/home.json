@@ -8,31 +8,37 @@
             "children": [
                 {
                     "text":  "Maildoll - Email Marketing & SMS Marketing SaaS Application",
+                    "slug": "maildoll",
                     "image": "https://codecanyon.img.customer.envatousercontent.com/files/396250010/update-preview-image.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=152249fbd405c9cdce61ca07dc85404b",
                     "href":  "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920"
                 },
                 {
                     "text": "Khadyo Restaurant Software - Online Food Ordering Website with POS",
+                    "slug": "khadyo",
                     "image": "https://codecanyon.img.customer.envatousercontent.com/files/393273200/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=f50d782eba6ba1e4042fec3a55fe1753",
                     "href": "https://codecanyon.net/item/khadyo-restaurant-software/29878013"
                 },
                 {
                     "text": "Manyvendor - eCommerce & Multivendor CMS",
+                    "slug": "manyvendor",
                     "image": "https://codecanyon.img.customer.envatousercontent.com/files/392206817/preview-image.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=aaa88afac2f7bdaafbb8daa32a729da9",
                     "href": "https://codecanyon.net/item/manyvendor-ecommerce-multivendor-cms/28474254"
                 },
                 {
                     "text": "Course LMS - Online Learning Management System",
+                    "slug": "course-lms",
                     "image": "https://codecanyon.img.customer.envatousercontent.com/files/392235751/preview-image.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=ec65f903177070a62c05b13de2580bf4",
                     "href": "https://codecanyon.net/item/course-lms-learning-management-system/27198917"
                 },
                 {
                     "text": "AutomateMail - Subdomain-Based SaaS Script For Email Marketing & SMS Marketing (Multitenancy)",
+                    "slug": "automatemail",
                     "image": "https://codecanyon.img.customer.envatousercontent.com/files/395593068/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=c23e6450931e0b58e423d61755c158a6",
                     "href": "https://codecanyon.net/item/maildollsaas-email-marketing-sms-marketing-saas-application/35845232"
                 },
                 {
                     "text": "Samurai POS - Point of Sale & Inventory Management System",
+                    "slug": "samurai",
                     "image": "https://codecanyon.img.customer.envatousercontent.com/files/382708505/Update-preview.png?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=6f9888969d8c857d3baefa2b8f4a335a",
                     "href": "https://codecanyon.net/item/samurai-pos-point-of-sale-inventory-management-system/26580880"
                 }
@@ -57,7 +63,7 @@
     ],
     "header": {
         "title": "Welcome To SoftTech-IT, All You Need Is A Software And A Dream.",
-        "subtitle": "Strong and Beautiful, Just Like software. software  will solve all of your troubles.",
+        "subtitle": "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
         "contact" : "http://softtechitsupport.com"
     },
     "products": {

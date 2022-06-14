@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import MaildollView from "../views/MaildollView.vue";
 
@@ -9,14 +9,14 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/maildoll",
-    name: "maildoll",
+    path: "/demo/:software",
+    name: "software",
     component: MaildollView,
   },
 ];
 
 const router = createRouter({
-  mode: 'history',
+  mode: "history",
   hash: false,
   history: createWebHistory(),
   routes,

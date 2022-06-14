@@ -13,8 +13,6 @@
       </div>
 
       <div class="mixitUp-containerOne mt-4 pt-4">
-
-
         <div class="home-item event" v-for="(product, index) in products" :key="index">
           <a :href="product.link" class="img-meta" style="background: #f1f2f6" target="_blank">
             <img :src="product.image" :alt="product.text" class="rounded" />
@@ -23,7 +21,6 @@
           <div class="page-name font-rubik">{{ product.name }}</div>
         </div>
         <!-- /.mix -->
-
 
         <div class="gap"></div>
         <div class="gap"></div>
@@ -38,7 +35,7 @@
 import HOME_JSON from "../../json/home.json";
 
 export default {
-  mounted(){
+  mounted() {
     console.log(HOME_JSON.products);
   },
   data() {
