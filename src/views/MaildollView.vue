@@ -22,7 +22,7 @@
               <div class="d-lg-flex justify-content-between align-items-center">
                 <ul class="navbar-nav main-side-nav font-gordita" id="one-page-nav">
                   <li class="nav-item" v-for="nav in navbar" :key="nav">
-                    <a href="#feature" class="nav-link">{{ nav.title }}</a>
+                    <a :href="nav.href" class="nav-link">{{ nav.title }}</a>
                   </li>
                 </ul>
               </div>
