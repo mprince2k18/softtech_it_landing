@@ -11,10 +11,7 @@
     </div>
     <div class="main-wrapper">
       <div class="row justify-content-center">
-
-
-        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200"
-          v-for="(technology, index) in technologies" :key="index">
+        <div class="col-lg-3 col-md-4 col-sm-6 d-flex mt-30" data-aos="zoom-in" data-aos-duration="1200" v-for="(technology, index) in technologies" :key="index">
           <div class="feature-block">
             <div class="icon d-flex justify-content-center align-items-end">
               <img :src="technology.icon" :alt="technology.title" />
@@ -23,8 +20,6 @@
           </div>
           <!-- /.feature-block -->
         </div>
-
-
       </div>
     </div>
   </div>

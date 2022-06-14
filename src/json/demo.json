@@ -1,0 +1,77 @@
+{
+    "navbar": [
+        {
+            "text": "Home",
+            "icon": "empty",
+            "href": "/",
+            "target": "_self",
+            "title": "All Products",
+            "children": []
+        },
+        {
+            "text": "Trailer",
+            "icon": "empty",
+            "href": "#trailer",
+            "target": "_self",
+            "title": "Trailer",
+            "children": []
+        },
+        {
+            "text": "Screenshots",
+            "icon": "empty",
+            "href": "#screenshots",
+            "target": "_self",
+            "title": "Screenshots",
+            "children": []
+        },
+        {
+            "text": "Features",
+            "icon": "empty",
+            "href": "#features",
+            "target": "_self",
+            "title": "Features",
+            "children": []
+        },
+        {
+            "text": "Reviews",
+            "icon": "empty",
+            "href": "#reviews",
+            "target": "_self",
+            "title": "Reviews",
+            "children": []
+        },
+        {
+            "text": "Pricing",
+            "icon": "empty",
+            "href": "#pricing",
+            "target": "_self",
+            "title": "Pricing",
+            "children": []
+        }
+    ],
+    "maildoll": [
+        {
+            "header": {
+                "title" : "Maildoll",
+                "subtitle" : "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
+                "logo" : "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+                "demo_link" : "https://demo.maildoll.com",
+                "envato_link" : "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+                "price" : "$39"
+            }
+        }
+    ],
+    "khadyo": [
+        {
+            "header": {
+                "title" : "Khadyo",
+                "subtitle" : "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
+                "logo" : "https://khadyowebsite.softtechdemo.com/wp-content/uploads/2021/11/khadyo-restaurant-software-logo.png",
+                "demo_link" : "https://khadyowebsite.softtechdemo.com",
+                "envato_link" : "https://codecanyon.net/item/khadyo-restaurant-software/29878013",
+                "price" : "$39"
+
+            }
+        }
+    ]
+}

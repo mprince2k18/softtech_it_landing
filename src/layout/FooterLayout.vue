@@ -7,9 +7,11 @@
     <div class="container">
       <h1>I Liked The Software So Much, I Bought The Company!</h1>
       <a href="https://codecanyon.net/user/softtech-it/portfolio" class="btn-one" target="_blank">Envato Profile</a>
-      <small class="pt-3 d-block">For <strong>Software Customisation</strong> at lower price, you can
+      <small class="pt-3 d-block"
+        >For <strong>Software Customisation</strong> at lower price, you can
         <a href="softtechitsupport.com" target="_blank" style="text-decoration: underline">Contact</a>
-        with us.</small>
+        with us.</small
+      >
     </div>
   </div>
 </template>
