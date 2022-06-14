@@ -78,6 +78,26 @@
                         "title" : "Video Uploading",
                         "subtitle" : "Video, and uploading from a URL.",
                         "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+                    },
+                    "list_3" : {
+                        "title" : "Video Editing",
+                        "subtitle" : "Video editing is a powding mcts.",
+                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+                    },
+                    "list_4" : {
+                        "title" : "Video Uploading",
+                        "subtitle" : "Video, and uploading from a URL.",
+                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+                    },
+                    "list_5" : {
+                        "title" : "Video Editing",
+                        "subtitle" : "Video editing is a powding mcts.",
+                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+                    },
+                    "list_6" : {
+                        "title" : "Video Uploading",
+                        "subtitle" : "Video, and uploading from a URL.",
+                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
                     }
                 }
             },
