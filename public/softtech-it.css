@@ -248,7 +248,7 @@
 .theme-menu-two .navbar [class*="mega-dropdown"] .mega-menu-title {color: var(--red-light);}
 .navbar [class*="mega-dropdown"] .dropdown-menu .dropdown-item {padding: 0;}
 
-/* custom css */
+/* custom css start*/
 .softtech-mega-menu{
     width: 70%;
     margin: 0 auto;
@@ -257,6 +257,16 @@
     width: 70%;
     margin: 0 auto;
 }
+.soft-partnerSliderTwo .carousel__slide{
+  height: 400px;
+}
+.soft-fancy-fea-nineteen {
+  background: #f7faff;
+  border-radius: 30px;
+  padding: 70px 40px;
+}
+
+/* custom css end */
 
 
 /*=====  End of navigation  ======*/
