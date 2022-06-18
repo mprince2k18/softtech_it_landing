@@ -1,0 +1,125 @@
+/***************************************************************
+ *
+ *  global  styles
+ *
+*********************************************************/
+h1,h2,h3,h4,h5,h6,p  {
+    color: #2a2a2a;
+}
+p {
+    font-size: 18px
+}
+h2 {
+    font-weight: 700;
+}
+h4,h5 {
+    font-weight: 500;
+}
+.sft-btn-secondary,.sft-btn-primary {
+    font-size: 16px;
+    padding: 8px 30px;
+}
+.theme-menu-five .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+}
+.px-70 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.title-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2a2a2a
+}
+/***************************************************************
+ *
+ *  maildol  styles 
+ *
+*********************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* global styles */
+.maildol-wrapper h1,h2,h3,h4,h5,h6,p ,button,li,a ,body .theme-btn-nine{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  primary color*/
+.maildol-wrapper .sft-color-primary {
+    color: #821ef5;
+}
+.sft-color-secondary {
+    color: #2a2a2a;
+}
+
+/* buttons */
+.maildol-wrapper .sft-btn-primary {
+    background: #821ef5;
+    border: 1px solid transparent;
+}
+.maildol-wrapper .sft-btn-primary:hover {
+    background: #fff;
+    color: #821ef5;
+    border: 1px solid #821ef5;
+}
+.maildol-wrapper .sft-btn-secondary {
+    color: #821ef5;
+    border: 1px solid #821ef5;  
+}
+.maildol-wrapper .sft-btn-secondary:hover {
+    background: #821ef5;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.maildol-wrapper .sm-title  {
+    color: #821ef5;
+    font-family: 'Roboto', sans-serif;
+}
+.maildol-wrapper .title-link:hover {
+    color: #821ef5;
+}
+
+
+
+
+
+/* single feature */
+.sft-single-fea {
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 11px 21px 0px rgba(0, 18, 124, 0.1);
+}
+.sft-single-fea .sm-title {
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+}
+.sft-fea-section {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+/* docs sections */
+.sft-docs-section {
+    background: #f3e8ff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.docs-pos-img {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 258px;
+}
+
+.convertion-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f7faff;
+}

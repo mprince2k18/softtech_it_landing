@@ -1,0 +1,14 @@
+/* responsive */
+@media screen and (max-width: 1199px) {
+    .docs-pos-img {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .docs-pos-img {
+       display: none;
+    }
+    .sft-docs-section {
+        padding: 50px;
+    }
+}
