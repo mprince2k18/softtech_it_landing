@@ -235,6 +235,274 @@
         </div>
       </div>
     </div>
+
+    <!-- 
+			=============================================
+				Theme Feature Section
+			============================================== 
+			-->
+    <div class="container">
+      <div class="block-style-twelve">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 mr-auto"
+            data-aoss="fade-right"
+            data-aos-durationn="1200"
+          >
+            <div class="illustration-holder">
+              <img src="/deski/images/assets/ils_11.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-5" data-aoss="fade-left" data-aos-durationn="1200">
+            <div class="text-wrapper">
+              <h6>User Guides</h6>
+              <h2 class="font-rubik title">
+                Docs for your APIs, products, FAQs and user guides,
+              </h2>
+              <p>
+                With deksi docs, you can write, edit, let it collaborate
+                wherever you are lorem dumy text introduction.
+              </p>
+            </div>
+            <!-- /.text-wrapper -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			=============================================
+				Theme Feature Section
+			============================================== 
+			-->
+    <div class="container">
+      <div class="block-style-twelve">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 ml-auto order-lg-last"
+            data-aoss="fade-left"
+            data-aos-durationn="1200"
+          >
+            <div class="illustration-holder">
+              <img src="/deski/images/assets/ils_12.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-lg-5 order-lg-first"
+            data-aoss="fade-right"
+            data-aos-durationn="1200"
+          >
+            <div class="text-wrapper">
+              <h6>Combine Idea</h6>
+              <h2 class="font-rubik title">
+                A place to think and track ideas for you & your team
+              </h2>
+              <p>
+                With deksi docs, you can write, edit, let it collaborate
+                wherever you are lorem dumy text introduction.
+              </p>
+            </div>
+            <!-- /.text-wrapper -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        =============================================
+        video  Section
+        ============================================== 
+         -->
+    <div class="container mt-120 mb-120">
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="one"
+          role="tabpanel"
+          aria-labelledby="one-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="two"
+          role="tabpanel"
+          aria-labelledby="two-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="three"
+          role="tabpanel"
+          aria-labelledby="three-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="four"
+          role="tabpanel"
+          aria-labelledby="four-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="five"
+          role="tabpanel"
+          aria-labelledby="five-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+      </div>
+      <ul class="nav mt-4" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn active video-btn"
+            id="one-tab"
+            data-toggle="tab"
+            href="#one"
+            role="tab"
+            aria-controls="one"
+            aria-selected="true"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> one</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="two-tab"
+            data-toggle="tab"
+            href="#two"
+            role="tab"
+            aria-controls="two"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> two</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="three-tab"
+            data-toggle="tab"
+            href="#three"
+            role="tab"
+            aria-controls="three"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> three</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="four-tab"
+            data-toggle="tab"
+            href="#four"
+            role="tab"
+            aria-controls="four"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> four</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="five-tab"
+            data-toggle="tab"
+            href="#five"
+            role="tab"
+            aria-controls="five"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> five</a
+          >
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
