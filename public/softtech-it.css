@@ -320,7 +320,23 @@
   font-size: 16px;
   outline: none;
 }
-
+.white-purple-btn {
+  text-transform: capitalize;
+  padding: 10px 50px;
+  border-radius: 5px;
+  color: #821ef5;
+  font-weight: 700;
+  font-size: 16px;
+  background: #fff;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+}
+.white-purple-btn:hover {
+color: #2a2a2a;
+}
+.bg-purple {
+  background: #821ef5!important;
+}
 
 
 /* custom css end */

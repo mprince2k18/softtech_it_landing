@@ -7318,7 +7318,7 @@ body .theme-btn-fourteen:hover {
     position: absolute;
     width: 100%;
     height: 83%;
-    background: url(../images/shape/67.svg);
+    background: url(../../deski/images/shape/67.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -7917,7 +7917,8 @@ body .theme-btn-fourteen:hover {
 }
 
 .theme-footer-three:before {
-    content: url(../images/shape/92.svg);
+    /* content: url(../images/shape/92.svg); */
+    content: url(../../deski/images/shape/92.svg);
     position: absolute;
     bottom: 0;
     left: 0;

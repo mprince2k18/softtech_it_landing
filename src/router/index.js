@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import MaildollView from "../views/MaildollView.vue";
+import KhadyoView from "../views/KhadyoView.vue";
 
 const routes = [
   {

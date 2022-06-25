@@ -1,0 +1,1433 @@
+<template>
+  <div class="main-page-wrapper maildol-wrapper font-gordita">
+    <!-- 
+			=============================================
+				Theme Main Menu
+			============================================== 
+			-->
+    <div class="theme-main-menu sticky-menu theme-menu-five">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="logo" style="width: 210px">
+          <router-link
+            :to="{ name: 'software', params: { software: software_name } }"
+          >
+            <img :src="header.logo" :alt="header.title" />
+          </router-link>
+        </div>
+
+        <nav id="mega-menu-holder" class="navbar navbar-expand-lg">
+          <div class="nav-container">
+            <button class="navbar-toggler">
+              <span></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+              <div class="d-lg-flex justify-content-between align-items-center">
+                <ul
+                  class="navbar-nav main-side-nav font-gordita"
+                  id="one-page-nav"
+                >
+                  <li class="nav-item" v-for="nav in navbar" :key="nav">
+                    <a :href="nav.href" class="nav-link">{{ nav.title }}</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="right-widget">
+          <ul class="d-flex align-items-center">
+            <li>
+              <a
+                :href="header.envato_link"
+                target="_blank"
+                class="btn btn-primary btn-lg mr-3 btn sft-btn-primary"
+              >
+                Purchase of {{ header.price }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /.theme-main-menu -->
+
+    <!-- 
+			=============================================
+				Theme Hero Banner
+			============================================== 
+			-->
+    <div class="hero-banner-three sft-hero-section">
+      <div class="container">
+        <div class="px-4 py-5 my-5 text-center">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="display-5 font-weight-bold mb-4">
+              The
+              <span class="sft-color-primary">Next Generation</span>
+              <br />Email Marketing Dashboard
+            </h2>
+            <p class="lead mb-4 px-5">
+              A Complete eCommerce Solution which is built by experts. Unlock
+              the power of your <br />
+              online store today with Maildoll!
+            </p>
+            <div class="d-flex justify-content-center mb-3">
+              <button
+                type="button"
+                class="btn btn-primary btn-lg mr-3 btn sft-btn-primary"
+              >
+                Explore Features
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4 sft-btn-secondary"
+              >
+                View Demos
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <img src="deski/images/assets/ils_09.svg" alt="" class="illustration" /> -->
+        <img
+          src="/deski/images/assets/ils_09.svg"
+          alt=""
+          class="illustration"
+        />
+      </div>
+      <!-- /.container -->
+      <img src="/deski/images/shape/68.svg" alt="" class="shapes shape-one" />
+      <img src="/deski/images/shape/69.svg" alt="" class="shapes shape-two" />
+      <img src="/deski/images/shape/70.svg" alt="" class="shapes shape-three" />
+      <img src="/deski/images/shape/71.svg" alt="" class="shapes shape-four" />
+      <img src="/deski/images/shape/72.svg" alt="" class="shapes shape-five" />
+      <img src="/deski/images/shape/73.svg" alt="" class="shapes shape-six" />
+      <img src="/deski/images/shape/74.svg" alt="" class="shapes shape-seven" />
+      <img src="/deski/images/shape/75.svg" alt="" class="shapes shape-eight" />
+      <img src="/deski/images/shape/76.svg" alt="" class="shapes shape-nine" />
+      <img src="/deski/images/shape/77.svg" alt="" class="shapes shape-ten" />
+    </div>
+
+    <!-- 
+			=============================================
+				Theme Feature Section
+			============================================== 
+			-->
+    <div class="sft-fea-section">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-8 col-xxl-4 text-center mb-5">
+            <h2>You can try premium features before purchasing</h2>
+          </div>
+
+          <!-- feature wrap -->
+          <div class="col-lg-12 px-70">
+            <div class="row">
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			=============================================
+			docs section
+			============================================== 
+			-->
+    <div class="container sft-docs-section mb-120 position-relative">
+      <div class="row align-items-center">
+        <img class="docs-pos-img" src="../img/doc-img.png" alt="img" />
+
+        <div class="col-lg-6 offset-lg-3">
+          <h4 class="mb-3">Maildoll Online Documentation</h4>
+          <p>
+            Send us your idea, it may appear on maildoll in the next update!
+          </p>
+        </div>
+        <div class="col-lg-2 mt-4 mt-lg-0">
+          <a href="#" class="btn btn-primary btn-lg mr-3 btn sft-btn-primary"
+            >Documentation</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			=============================================
+				Theme Feature Section
+			============================================== 
+			-->
+    <div class="sft-fea-section convertion-section">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-8 col-xxl-4 text-center mb-5">
+            <h2>Instantly Improve Conversions by 120% in a day</h2>
+          </div>
+
+          <!-- feature wrap -->
+          <div class="col-lg-12 px-70">
+            <div class="row">
+              <div class="col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img class="mx-auto" src="../img/conversion1.png" alt="" />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img class="mx-auto" src="../img/conversion1.png" alt="" />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			=============================================
+				Theme Feature Section
+			============================================== 
+			-->
+    <div class="container">
+      <div class="block-style-twelve">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 mr-auto"
+            data-aoss="fade-right"
+            data-aos-durationn="1200"
+          >
+            <div class="illustration-holder">
+              <img src="/deski/images/assets/ils_11.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-5" data-aoss="fade-left" data-aos-durationn="1200">
+            <div class="text-wrapper">
+              <h6>User Guides</h6>
+              <h2 class="font-rubik title">
+                Docs for your APIs, products, FAQs and user guides,
+              </h2>
+              <p>
+                With deksi docs, you can write, edit, let it collaborate
+                wherever you are lorem dumy text introduction.
+              </p>
+            </div>
+            <!-- /.text-wrapper -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			=============================================
+				Theme Feature Section
+			============================================== 
+			-->
+    <div class="container">
+      <div class="block-style-twelve">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 ml-auto order-lg-last"
+            data-aoss="fade-left"
+            data-aos-durationn="1200"
+          >
+            <div class="illustration-holder">
+              <img src="/deski/images/assets/ils_12.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-lg-5 order-lg-first"
+            data-aoss="fade-right"
+            data-aos-durationn="1200"
+          >
+            <div class="text-wrapper">
+              <h6>Combine Idea</h6>
+              <h2 class="font-rubik title">
+                A place to think and track ideas for you & your team
+              </h2>
+              <p>
+                With deksi docs, you can write, edit, let it collaborate
+                wherever you are lorem dumy text introduction.
+              </p>
+            </div>
+            <!-- /.text-wrapper -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        =============================================
+        video  Section
+        ============================================== 
+         -->
+    <div class="container mt-120 mb-120">
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="one"
+          role="tabpanel"
+          aria-labelledby="one-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="two"
+          role="tabpanel"
+          aria-labelledby="two-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="three"
+          role="tabpanel"
+          aria-labelledby="three-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="four"
+          role="tabpanel"
+          aria-labelledby="four-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="five"
+          role="tabpanel"
+          aria-labelledby="five-tab"
+        >
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            autoplay="true"
+            data-setup="{}"
+          >
+            <source src="/video/dashboard-video.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </div>
+      </div>
+      <ul class="nav mt-4" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn active video-btn"
+            id="one-tab"
+            data-toggle="tab"
+            href="#one"
+            role="tab"
+            aria-controls="one"
+            aria-selected="true"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> one</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="two-tab"
+            data-toggle="tab"
+            href="#two"
+            role="tab"
+            aria-controls="two"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> two</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="three-tab"
+            data-toggle="tab"
+            href="#three"
+            role="tab"
+            aria-controls="three"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> three</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="four-tab"
+            data-toggle="tab"
+            href="#four"
+            role="tab"
+            aria-controls="four"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> four</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
+            id="five-tab"
+            data-toggle="tab"
+            href="#five"
+            role="tab"
+            aria-controls="five"
+            aria-selected="false"
+            ><i class="fa fa-play-circle" aria-hidden="true"></i> five</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!--
+			=====================================================
+				Client Feedback Slider Two
+			=====================================================
+			-->
+    <div class="client-feedback-slider-two mt-180 md-mt-100">
+      <img
+        src="/deski//deski/imagesshape/78.svg"
+        alt=""
+        class="shapes shape-one"
+      />
+      <img
+        src="/deski//deski/imagesshape/79.svg"
+        alt=""
+        class="shapes shape-two"
+      />
+      <img
+        src="/deski//deski/imagesshape/80.svg"
+        alt=""
+        class="shapes shape-three"
+      />
+      <img
+        src="/deski//deski/imagesshape/81.svg"
+        alt=""
+        class="shapes shape-four"
+      />
+      <img
+        src="/deski//deski/imagesshape/82.svg"
+        alt=""
+        class="shapes shape-five"
+      />
+      <img
+        src="/deski//deski/imagesshape/83.svg"
+        alt=""
+        class="shapes shape-six"
+      />
+      <img
+        src="/deski//deski/imagesshape/84.svg"
+        alt=""
+        class="shapes shape-seven"
+      />
+      <img
+        src="/deski//deski/imagesshape/85.svg"
+        alt=""
+        class="shapes shape-eight"
+      />
+      <div class="container">
+        <div class="title-style-four text-center mb-100 md-mb-60">
+          <div class="row">
+            <div class="col-lg-7 col-md-9 m-auto">
+              <h6>Feedback</h6>
+              <h2>
+                What’s Our Client Say
+                <span
+                  >About Us
+                  <img src="/deski//deski/imagesshape/line-shape-2.svg" alt=""
+                /></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="slider-content">
+          <div class="clientSliderTwo">
+            <carousel :items-to-show="1.5">
+              <slide v-for="slide in 10" :key="slide">
+                <div class="item">
+                  <div class="bg-wrapper">
+                    <img
+                      src="/deski/images/logo/logo-8.png"
+                      alt=""
+                      class="logo"
+                    />
+                    <p>
+                      Lorem ipsum dolor sit, consectetu qsu some adipiscing elit
+                      eiusmod temp incididu nt ut labore e dol magna great
+                      aliqua.mollit ani muim.
+                    </p>
+                    <div class="name font-rubik">Rashed Ka.</div>
+                    <div class="desig">Founder CreativeGigs</div>
+                  </div>
+                </div>
+              </slide>
+
+              <!-- <template #addons>
+              <navigation />
+              <pagination />
+            </template> -->
+            </carousel>
+          </div>
+        </div>
+      </div>
+      <!-- /.slider-content -->
+    </div>
+
+    <!--
+			=====================================================
+				Pricing Section Eight
+			=====================================================
+			-->
+    <div
+      class="pricing-section-eight lg-container mt-150 md-mt-100"
+      id="pricing"
+    >
+      <div class="container">
+        <div class="border-top pt-150 md-pt-100">
+          <div class="title-style-twelve text-center pb-120 md-pb-60">
+            <h2>
+              <span
+                >Get your plan<img
+                  src="/deski/imagesshape/line-shape-13.svg"
+                  alt=""
+              /></span>
+            </h2>
+            <p class="mt-40 md-mt-20">
+              Get access to the largest library of legal forms and easily
+              integrate deski into your apps
+            </p>
+          </div>
+        </div>
+
+        <div class="row no-gutters position-relative">
+          <div class="col-lg-3 pr-list-wrapper d-none d-lg-block">
+            <ul>
+              <li>Send documents for eSigning</li>
+              <li>Multiple User</li>
+              <li>Refund</li>
+              <li>Bulk invite to sign</li>
+              <li>Live Chat</li>
+              <li>Send invite via Link</li>
+            </ul>
+          </div>
+          <div class="col-lg-9 pr-table-wrapper ml-auto">
+            <div class="row no-gutters">
+              <div class="col-md-4 pr-column">
+                <div class="pr-header">
+                  <div class="plan">Silver Plan</div>
+                  <div class="price">$97</div>
+                  <div class="info">Great for Individial Person</div>
+                </div>
+                <!-- /.pr-header -->
+                <div class="pr-body">
+                  <ul>
+                    <li>
+                      <span class="pr-text d-lg-none"
+                        >Send documents for eSigning</span
+                      >
+                      <img
+                        src="/deski/images/icon/154.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Multiple User</span>
+                      <img
+                        src="/deski/images/icon/154.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Refund</span>
+                      <img
+                        src="/deski/images/icon/154.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Bulk invite to sign</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Live Chat</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none"
+                        >Send invite via Link</span
+                      >
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <div class="pr-footer">
+                  <a href="#" class="trial-button">Sign up</a>
+                  <div class="trial-text">Get your 30 day free trial</div>
+                </div>
+              </div>
+              <!-- /.pr-column -->
+              <div class="col-md-4 pr-column">
+                <div class="pr-header">
+                  <div class="plan">Gold Plan</div>
+                  <div class="price">$199</div>
+                  <div class="info">Great for Startup</div>
+                </div>
+                <!-- /.pr-header -->
+                <div class="pr-body">
+                  <ul>
+                    <li>
+                      <span class="pr-text d-lg-none"
+                        >Send documents for eSigning</span
+                      >
+                      <img
+                        src="/deski/images/icon/154.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Multiple User</span>
+                      <img
+                        src="/deski/images/icon/154.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Refund</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Bulk invite to sign</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Live Chat</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none"
+                        >Send invite via Link</span
+                      >
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <div class="pr-footer">
+                  <a href="#" class="trial-button">Sign up</a>
+                  <div class="trial-text">Get your 30 day free trial</div>
+                </div>
+              </div>
+              <!-- /.pr-column -->
+              <div class="col-md-4 pr-column">
+                <div class="pr-header">
+                  <div class="plan">Business Plan</div>
+                  <div class="price">$239</div>
+                  <div class="info">Great for Large Business</div>
+                </div>
+                <!-- /.pr-header -->
+                <div class="pr-body">
+                  <ul>
+                    <li>
+                      <span class="pr-text d-lg-none"
+                        >Send documents for eSigning</span
+                      >
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Multiple User</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Refund</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Bulk invite to sign</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none">Live Chat</span>
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                    <li>
+                      <span class="pr-text d-lg-none"
+                        >Send invite via Link</span
+                      >
+                      <img
+                        src="/deski/images/icon/155.svg"
+                        alt=""
+                        class="m-auto"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <div class="pr-footer">
+                  <a href="#" class="trial-button">Sign up</a>
+                  <div class="trial-text">Get your 30 day free trial</div>
+                </div>
+              </div>
+              <!-- /.pr-column -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+			=============================================
+				Theme Feature Section
+			============================================== 
+			-->
+    <div class="sft-fea-section">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-8 col-xxl-4 text-center mb-5">
+            <h2>10+ Feature-instructional videos that help you to control</h2>
+          </div>
+
+          <!-- feature wrap -->
+          <div class="col-lg-12 px-70">
+            <div class="row">
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6 mb-4">
+                <div class="sft-single-fea">
+                  <img
+                    class="w-100"
+                    src="../img/maildoll-new-landing.png"
+                    alt=""
+                  />
+                  <span class="sft-color-primary text-capitalize sm-title mt-3"
+                    >step 01</span
+                  >
+                  <a href="#" class="mt-1 title-link"
+                    >Go to and write your store’s name</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+			=====================================================
+				Faq Classic
+			=====================================================
+			-->
+    <div class="faq-classic with-bg">
+      <img src="deski/images/shape/86.svg" alt="" class="shapes shape-one" />
+      <img src="deski/images/shape/87.svg" alt="" class="shapes shape-two" />
+      <img src="deski/images/shape/88.svg" alt="" class="shapes shape-three" />
+      <img src="deski/images/shape/89.svg" alt="" class="shapes shape-four" />
+      <img src="deski/images/shape/90.svg" alt="" class="shapes shape-five" />
+      <img src="deski/images/shape/91.svg" alt="" class="shapes shape-six" />
+      <div class="container">
+        <div class="title-style-four text-center mb-100 md-mb-70">
+          <div class="row">
+            <div class="col-lg-7 m-auto">
+              <h6>FAQ’s</h6>
+              <h2>
+                <span
+                  >Questions & Answers<img
+                    src="deski/images/shape/line-shape-2.svg"
+                    alt=""
+                /></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- ================== FAQ Panel ================ -->
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      How the affiliate programe works?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">How delete my account?</button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      Ho to invite people with refferel link?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      Is ios app available for the iphone?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <!-- ================== FAQ Panel ================ -->
+            <div id="accordiontwo">
+              <div class="card">
+                <div class="card-header" id="headingOne2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      How the affiliate programe works?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne2" class="collapse">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      How to create customer panel?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo2" class="collapse show">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">How delete my account?</button>
+                  </h5>
+                </div>
+                <div id="collapseThree2" class="collapse">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      Ho to invite people with refferel link?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour2" class="collapse">
+                  <div class="card-body">
+                    <p>
+                      mea case duis tollit et. Etiam nusquam set minium eu sea,
+                      ei tale paulo elab. Noluisse mnesarch Et is vero
+                      incorrupte eos deserunt quaeren.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+			=====================================================
+				Fancy Short Banner Four
+			=====================================================
+			-->
+    <div class="fancy-short-banner-four">
+      <div class="container">
+        <div class="bg-wrapper bg-purple rounded-lg">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6">
+              <div class="title text-center">
+                <h3 class="text-white">
+                  200+ Customers use our maildoll. Try it now!
+                </h3>
+                <button class="white-purple-btn mt-4">view more</button>
+              </div>
+              <!-- /.title-style-one -->
+            </div>
+          </div>
+        </div>
+        <!-- /.bg-wrapper -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.fancy-short-banner-four -->
+
+    <!--
+			=====================================================
+				Footer Style Three
+			=====================================================
+			-->
+    <footer class="theme-footer-three pt-100">
+      <div class="top-footer">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div
+              class="col-lg-4 col-12 footer-about-widget"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <a href="index-doc.html" class="logo"
+                ><img
+                  src="https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png"
+                  alt=""
+              /></a>
+            </div>
+            <!-- /.about-widget -->
+            <div
+              class="col-lg-2 col-md-4 footer-list"
+              data-aoss="fade-up"
+              data-aos-durations="1200"
+              data-aos-delays="50"
+            >
+              <h5 class="footer-title">Services</h5>
+              <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Wordpress</a></li>
+                <li><a href="#">Online Marketing</a></li>
+                <li><a href="#">Content</a></li>
+              </ul>
+            </div>
+            <!-- /.footer-list -->
+            <div
+              class="col-lg-2 col-md-4 footer-list"
+              data-aoss="fade-up"
+              data-aos-durations="1200"
+              data-aos-delays="100"
+            >
+              <h5 class="footer-title">About us</h5>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Work Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Plan & Pricing</a></li>
+                <li><a href="#">News</a></li>
+              </ul>
+            </div>
+            <!-- /.footer-list -->
+            <div
+              class="col-lg-3 col-md-4 address-list"
+              data-aoss="fade-up"
+              data-aos-durations="1200"
+              data-aos-delays="150"
+            >
+              <h5 class="footer-title">Contact Info</h5>
+              <p class="font-rubik">
+                432 Mirpur National Stadium Market <br />Dhaka, Bangladesh
+              </p>
+              <ul class="info">
+                <li><a href="#">deskisupportinc@gmail.com</a></li>
+                <li><a href="#" class="mobile-num">+761 412 3224</a></li>
+              </ul>
+              <ul class="social-icon d-flex pt-15">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.footer-list -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.top-footer -->
+
+      <div class="container">
+        <div class="bottom-footer-content">
+          <div class="row">
+            <div class="col-lg-8 ml-auto">
+              <div class="d-md-flex align-items-center justify-content-between">
+                <ul
+                  class="order-md-last"
+                  data-aoss="fade-left"
+                  data-aos-durations="1200"
+                  data-aos-delays="50"
+                  data-aos-anchors=".theme-footer-three"
+                >
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Terms</a></li>
+                </ul>
+                <p
+                  class="order-md-first"
+                  data-aoss="fade-right"
+                  data-aos-durations="1200"
+                  data-aos-delays="50"
+                  data-aos-anchors=".theme-footer-three"
+                >
+                  Copyright @2022 deski inc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.bottom-footer -->
+      </div>
+    </footer>
+    <!-- /.theme-footer-three -->
+  </div>
+</template>
+
+<style>
+@import "./single-style.css";
+@import "./responsive.css";
+</style>
+<script>
+import DEMO_JSON from "../json/demo.json";
+
+import "vue3-carousel/dist/carousel.css";
+
+import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+
+export default {
+  mounted() {
+    console.log(DEMO_JSON[this.$route.params.software][0].features);
+  },
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation,
+  },
+  data() {
+    return {
+      software_name: this.$route.params.software,
+      header: [],
+      navbar: [],
+      screenshots: [],
+      features: [],
+      pricing: [],
+      testimonials: [],
+      // carousel settings
+      settings: {
+        itemsToShow: 3,
+        snapAlign: "center",
+      },
+      // breakpoints are mobile first
+      // any settings not specified will fallback to the carousel settings
+      breakpoints: {
+        // 700px and up
+        576: {
+          itemsToShow: 1.5,
+          snapAlign: "center",
+        },
+        700: {
+          itemsToShow: 2,
+          snapAlign: "center",
+        },
+        // 1024 and up
+        1024: {
+          itemsToShow: 3,
+          snapAlign: "start",
+        },
+      },
+    };
+  },
+  methods: {
+    getHeader() {
+      this.header = DEMO_JSON[this.$route.params.software][0].header;
+    },
+    getNavbar() {
+      this.navbar = DEMO_JSON.navbar;
+    },
+    getScreenshots() {
+      this.screenshots = DEMO_JSON[this.$route.params.software][0].screenshots;
+    },
+    getFeatures() {
+      this.features = DEMO_JSON[this.$route.params.software][0].features;
+    },
+    getPricing() {
+      this.pricing = DEMO_JSON[this.$route.params.software][0].pricing;
+    },
+    getTestimonials() {
+      this.testimonials =
+        DEMO_JSON[this.$route.params.software][0].testimonials;
+    },
+  },
+  created() {
+    this.getHeader();
+    this.getNavbar();
+    this.getScreenshots();
+    this.getFeatures();
+    this.getPricing();
+    this.getTestimonials();
+  },
+};
+</script>

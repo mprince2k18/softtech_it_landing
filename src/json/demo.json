@@ -1,182 +1,312 @@
 {
-    "navbar": [
-        {
-            "text": "Home",
-            "icon": "empty",
-            "href": "/",
-            "target": "_self",
-            "title": "All Products",
-            "children": []
-        },
-        {
-            "text": "Trailer",
-            "icon": "empty",
-            "href": "#trailer",
-            "target": "_self",
-            "title": "Trailer",
-            "children": []
-        },
-        {
-            "text": "Screenshots",
-            "icon": "empty",
-            "href": "#screenshots",
-            "target": "_self",
-            "title": "Screenshots",
-            "children": []
-        },
-        {
-            "text": "Features",
-            "icon": "empty",
-            "href": "#features",
-            "target": "_self",
-            "title": "Features",
-            "children": []
-        },
-        {
-            "text": "Reviews",
-            "icon": "empty",
-            "href": "#reviews",
-            "target": "_self",
-            "title": "Reviews",
-            "children": []
-        },
-        {
-            "text": "Pricing",
-            "icon": "empty",
-            "href": "#pricing",
-            "target": "_self",
-            "title": "Pricing",
-            "children": []
+  "navbar": [
+    {
+      "text": "Home",
+      "icon": "empty",
+      "href": "/",
+      "target": "_self",
+      "title": "All Products",
+      "children": []
+    },
+    {
+      "text": "Feature",
+      "icon": "empty",
+      "href": "#feature",
+      "target": "_self",
+      "title": "Feature",
+      "children": []
+    },
+    {
+      "text": "Pricing",
+      "icon": "empty",
+      "href": "#pricing",
+      "target": "_self",
+      "title": "Pricing",
+      "children": []
+    },
+    {
+      "text": "Features",
+      "icon": "empty",
+      "href": "#features",
+      "target": "_self",
+      "title": "Features",
+      "children": []
+    },
+    {
+      "text": "Documentation",
+      "icon": "empty",
+      "href": "#documentation",
+      "target": "_self",
+      "title": "Documentation",
+      "children": []
+    },
+    {
+      "text": "Tutorials",
+      "icon": "empty",
+      "href": "#Tutorials",
+      "target": "_self",
+      "title": "Tutorials",
+      "children": []
+    }
+  ],
+  "maildoll": [
+    {
+      "header": {
+        "title": "Maildoll",
+        "subtitle": "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
+        "logo": "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+        "demo_link": "https://demo.maildoll.com",
+        "envato_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+        "price": "$39",
+        "total_clients": "350+",
+        "theme": "maildol-wrapper"
+      },
+      "screenshots": [
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png"
+      ],
+      "features": {
+        "section_title": "Features",
+        "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
+        "lists": {
+          "list_1": {
+            "title": "Video Editing",
+            "subtitle": "Video editing is a powding mcts.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_2": {
+            "title": "Video Uploading",
+            "subtitle": "Video, and uploading from a URL.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_3": {
+            "title": "Video Editing",
+            "subtitle": "Video editing is a powding mcts.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_4": {
+            "title": "Video Uploading",
+            "subtitle": "Video, and uploading from a URL.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_5": {
+            "title": "Video Editing",
+            "subtitle": "Video editing is a powding mcts.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_6": {
+            "title": "Video Uploading",
+            "subtitle": "Video, and uploading from a URL.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          }
         }
-    ],
-    "maildoll": [
-        {
-            "header": {
-                "title" : "Maildoll",
-                "subtitle" : "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
-                "logo" : "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
-                "demo_link" : "https://demo.maildoll.com",
-                "envato_link" : "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
-                "price" : "$39",
-                "total_clients" : "350+"
-            },
-            "screenshots" : [
-                "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
-                "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
-                "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png"
-            ],
-            "features" : {
-                "section_title" : "Features",
-                "section_subtitle" : "Explore advanced video editing features that only professionals have access to!",
-                "lists" : {
-                    "list_1" : {
-                        "title" : "Video Editing",
-                        "subtitle" : "Video editing is a powding mcts.",
-                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
-                    },
-                    "list_2" : {
-                        "title" : "Video Uploading",
-                        "subtitle" : "Video, and uploading from a URL.",
-                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
-                    },
-                    "list_3" : {
-                        "title" : "Video Editing",
-                        "subtitle" : "Video editing is a powding mcts.",
-                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
-                    },
-                    "list_4" : {
-                        "title" : "Video Uploading",
-                        "subtitle" : "Video, and uploading from a URL.",
-                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
-                    },
-                    "list_5" : {
-                        "title" : "Video Editing",
-                        "subtitle" : "Video editing is a powding mcts.",
-                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
-                    },
-                    "list_6" : {
-                        "title" : "Video Uploading",
-                        "subtitle" : "Video, and uploading from a URL.",
-                        "icon" : "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
-                    }
-                }
-            },
-            "pricing": {
-                "section_title" : "OUR PRICING",
-                "section_subtitle" : "Unbeatable prices, no contracts, simple & easy",
-                "lists" : {
-                    "regular license" : {
-                        "title" : "Regular License",
-                        "subtitle" : "per license/lifetime",
-                        "price" : "$39",
-                        "purchase_link" : "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
-                        "features" : [
-                            "✔ LIFETIME UPDATE",
-                            "✔ PERMITTED FOR 1 DOMAIN",
-                            "✔ 6 MONTHS TECHNICAL SUPPORT",
-                            "✔ REMOTE SUPPORT (Installation only)",
-                            "✔ FOR PERSONAL PROJECT",
-                            "✔ FREE INSTALLATION (CPANEL)",
-                            "✔ LIVE MESSENGER CHAT",
-                            "✗ FOR COMMERCIAL PRJOECT"
-                        ]
-                    },
-                    "extended license" : {
-                        "title" : "Extended License",
-                        "subtitle" : "per license/lifetime",
-                        "price" : "$199",
-                        "purchase_link" : "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
-                        "features" : [
-                            "✔ LIFETIME UPDATE",
-                            "✔ PERMITTED FOR MULTIPLE DOMAIN",
-                            "✔ 12 MONTHS TECHNICAL SUPPORT",
-                            "✔ REMOTE SUPPORT (Installation only)",
-                            "✔ FOR PERSONAL PROJECT",
-                            "✔ FREE INSTALLATION (CPANEL)",
-                            "✔ LIVE MESSENGER CHAT",
-                            "✔ FOR COMMERCIAL PRJOECT"
-                        ]
-                    },
-                    "customization" : {
-                        "title" : "Customization",
-                        "subtitle" : "on demand of task",
-                        "price" : "Contact us",
-                        "purchase_link" : "http://softtechitsupport.com",
-                        "features" : [
-                            "✔ LIFETIME UPDATE",
-                            "✔ PERMITTED FOR MULTIPLE DOMAIN",
-                            "✔ 12 MONTHS TECHNICAL SUPPORT",
-                            "✔ REMOTE SUPPORT (Installation only)",
-                            "✔ FOR PERSONAL PROJECT",
-                            "✔ FREE INSTALLATION (CPANEL)",
-                            "✔ LIVE MESSENGER CHAT",
-                            "✔ FOR COMMERCIAL PRJOECT"
-                        ]
-                    }
-                }
-            },
-            "testimonials": {
-                "section_title" : "FEEDBACK",
-                "section_subtitle" : "Trusted by 1250+ of clients.",
-                "lists" : {
-                    "list_1" : {
-                        "name" : "Martin Jonas",
-                        "country" : "USA",
-                        "description" : "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    "list_2" : {
-                        "name" : "Prince",
-                        "country" : "USA",
-                        "description" : "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    },
-                    "list_3" : {
-                        "name" : "Martin Jonas",
-                        "country" : "USA",
-                        "description" : "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    }
-                }
-            }
+      },
+      "pricing": {
+        "section_title": "OUR PRICING",
+        "section_subtitle": "Unbeatable prices, no contracts, simple & easy",
+        "lists": {
+          "regular license": {
+            "title": "Regular License",
+            "subtitle": "per license/lifetime",
+            "price": "$39",
+            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "features": [
+              "✔ LIFETIME UPDATE",
+              "✔ PERMITTED FOR 1 DOMAIN",
+              "✔ 6 MONTHS TECHNICAL SUPPORT",
+              "✔ REMOTE SUPPORT (Installation only)",
+              "✔ FOR PERSONAL PROJECT",
+              "✔ FREE INSTALLATION (CPANEL)",
+              "✔ LIVE MESSENGER CHAT",
+              "✗ FOR COMMERCIAL PRJOECT"
+            ]
+          },
+          "extended license": {
+            "title": "Extended License",
+            "subtitle": "per license/lifetime",
+            "price": "$199",
+            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "features": [
+              "✔ LIFETIME UPDATE",
+              "✔ PERMITTED FOR MULTIPLE DOMAIN",
+              "✔ 12 MONTHS TECHNICAL SUPPORT",
+              "✔ REMOTE SUPPORT (Installation only)",
+              "✔ FOR PERSONAL PROJECT",
+              "✔ FREE INSTALLATION (CPANEL)",
+              "✔ LIVE MESSENGER CHAT",
+              "✔ FOR COMMERCIAL PRJOECT"
+            ]
+          },
+          "customization": {
+            "title": "Customization",
+            "subtitle": "on demand of task",
+            "price": "Contact us",
+            "purchase_link": "http://softtechitsupport.com",
+            "features": [
+              "✔ LIFETIME UPDATE",
+              "✔ PERMITTED FOR MULTIPLE DOMAIN",
+              "✔ 12 MONTHS TECHNICAL SUPPORT",
+              "✔ REMOTE SUPPORT (Installation only)",
+              "✔ FOR PERSONAL PROJECT",
+              "✔ FREE INSTALLATION (CPANEL)",
+              "✔ LIVE MESSENGER CHAT",
+              "✔ FOR COMMERCIAL PRJOECT"
+            ]
+          }
         }
-    ]
-    
+      },
+      "testimonials": {
+        "section_title": "FEEDBACK",
+        "section_subtitle": "Trusted by 1250+ of clients.",
+        "lists": {
+          "list_1": {
+            "name": "Martin Jonas",
+            "country": "USA",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_2": {
+            "name": "Prince",
+            "country": "USA",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_3": {
+            "name": "Martin Jonas",
+            "country": "USA",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      }
+    }
+  ],
+  "khadyo": [
+    {
+      "header": {
+        "title": "Maildoll",
+        "subtitle": "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
+        "logo": "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+        "demo_link": "https://demo.maildoll.com",
+        "envato_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+        "price": "$39",
+        "total_clients": "350+",
+        "theme": "khadyo-wrapper"
+      },
+      "screenshots": [
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png"
+      ],
+      "features": {
+        "section_title": "Features",
+        "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
+        "lists": {
+          "list_1": {
+            "title": "Video Editing",
+            "subtitle": "Video editing is a powding mcts.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_2": {
+            "title": "Video Uploading",
+            "subtitle": "Video, and uploading from a URL.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_3": {
+            "title": "Video Editing",
+            "subtitle": "Video editing is a powding mcts.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_4": {
+            "title": "Video Uploading",
+            "subtitle": "Video, and uploading from a URL.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_5": {
+            "title": "Video Editing",
+            "subtitle": "Video editing is a powding mcts.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          },
+          "list_6": {
+            "title": "Video Uploading",
+            "subtitle": "Video, and uploading from a URL.",
+            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          }
+        }
+      },
+      "pricing": {
+        "section_title": "OUR PRICING",
+        "section_subtitle": "Unbeatable prices, no contracts, simple & easy",
+        "lists": {
+          "regular license": {
+            "title": "Regular License",
+            "subtitle": "per license/lifetime",
+            "price": "$39",
+            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "features": [
+              "✔ LIFETIME UPDATE",
+              "✔ PERMITTED FOR 1 DOMAIN",
+              "✔ 6 MONTHS TECHNICAL SUPPORT",
+              "✔ REMOTE SUPPORT (Installation only)",
+              "✔ FOR PERSONAL PROJECT",
+              "✔ FREE INSTALLATION (CPANEL)",
+              "✔ LIVE MESSENGER CHAT",
+              "✗ FOR COMMERCIAL PRJOECT"
+            ]
+          },
+          "extended license": {
+            "title": "Extended License",
+            "subtitle": "per license/lifetime",
+            "price": "$199",
+            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "features": [
+              "✔ LIFETIME UPDATE",
+              "✔ PERMITTED FOR MULTIPLE DOMAIN",
+              "✔ 12 MONTHS TECHNICAL SUPPORT",
+              "✔ REMOTE SUPPORT (Installation only)",
+              "✔ FOR PERSONAL PROJECT",
+              "✔ FREE INSTALLATION (CPANEL)",
+              "✔ LIVE MESSENGER CHAT",
+              "✔ FOR COMMERCIAL PRJOECT"
+            ]
+          },
+          "customization": {
+            "title": "Customization",
+            "subtitle": "on demand of task",
+            "price": "Contact us",
+            "purchase_link": "http://softtechitsupport.com",
+            "features": [
+              "✔ LIFETIME UPDATE",
+              "✔ PERMITTED FOR MULTIPLE DOMAIN",
+              "✔ 12 MONTHS TECHNICAL SUPPORT",
+              "✔ REMOTE SUPPORT (Installation only)",
+              "✔ FOR PERSONAL PROJECT",
+              "✔ FREE INSTALLATION (CPANEL)",
+              "✔ LIVE MESSENGER CHAT",
+              "✔ FOR COMMERCIAL PRJOECT"
+            ]
+          }
+        }
+      },
+      "testimonials": {
+        "section_title": "FEEDBACK",
+        "section_subtitle": "Trusted by 1250+ of clients.",
+        "lists": {
+          "list_1": {
+            "name": "Martin Jonas",
+            "country": "USA",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_2": {
+            "name": "Prince",
+            "country": "USA",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_3": {
+            "name": "Martin Jonas",
+            "country": "USA",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      }
+    }
+  ]
 }
