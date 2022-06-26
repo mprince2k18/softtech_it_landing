@@ -19,6 +19,9 @@ h4,h5 {
     font-size: 16px;
     padding: 8px 30px;
 }
+.sft-btn-primary {
+border: 1px solid transparent;
+}
 .theme-menu-five .navbar-nav .nav-item .nav-link {
     font-size: 16px;
     font-weight: 500;
@@ -31,6 +34,16 @@ h4,h5 {
     font-size: 20px;
     font-weight: 500;
     color: #2a2a2a
+}
+.sft-hero-section {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sft-hero-section::before {
+    content: initial;
+}
+.logo {
+    width: 120px
 }
 /***************************************************************
  *

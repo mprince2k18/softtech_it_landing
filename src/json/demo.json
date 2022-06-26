@@ -59,7 +59,9 @@
         "envato_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
         "price": "$39",
         "total_clients": "350+",
-        "theme": "maildol-wrapper"
+        "theme": "maildol-wrapper",
+        "hero_bg": "https://cdn.discordapp.com/attachments/910838764799148082/990484897682559006/maildoll.jpg",
+        "hero_img": "/deski/images/assets/ils_09.svg"
       },
       "screenshots": [
         "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
@@ -71,34 +73,60 @@
         "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
         "lists": {
           "list_1": {
-            "title": "Video Editing",
-            "subtitle": "Video editing is a powding mcts.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/1.mp4"
           },
           "list_2": {
-            "title": "Video Uploading",
-            "subtitle": "Video, and uploading from a URL.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/steps/2.mp4"
           },
           "list_3": {
-            "title": "Video Editing",
-            "subtitle": "Video editing is a powding mcts.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 3",
+            "subtitle": "Three Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/3.mp4"
           },
           "list_4": {
-            "title": "Video Uploading",
-            "subtitle": "Video, and uploading from a URL.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 4",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          }
+        }
+      },
+      "banner_docs": {
+        "title": "Maildoll Online Documentation",
+        "subtitle": "Send us your idea, it may appear on maildoll in the next update!",
+        "docs_link": "https://maildoll.gitbook.io/maildoll-email-and-sms-marketing-application/"
+      },
+      "responsive_device": {
+        "lists": {
+          "list_1": {
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/responsive/mobile.mp4"
           },
-          "list_5": {
-            "title": "Video Editing",
-            "subtitle": "Video editing is a powding mcts.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          "list_2": {
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/responsive/desktop.mp4"
+          }
+        }
+      },
+      "features_two": {
+        "section_title": "The Ultimate Solution with Exclusive Apps",
+        "lists": {
+          "list_1": {
+            "title": "USER GUIDES",
+            "subtitle": " Docs for your APIs, products, FAQs and user guides,",
+            "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
+            "url": "/deski/images/assets/ils_11.svg"
           },
-          "list_6": {
-            "title": "Video Uploading",
-            "subtitle": "Video, and uploading from a URL.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          "list_2": {
+            "title": "COMBINE IDEA",
+            "subtitle": "A place to think and track ideas for you & your team",
+            "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
+            "url": "/deski/images/assets/ils_12.svg"
           }
         }
       },
@@ -182,14 +210,16 @@
   "khadyo": [
     {
       "header": {
-        "title": "Maildoll",
+        "title": "Build your   <span class='sft-color-primary'>Restaurant</span> software with Khadyo.",
         "subtitle": "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
-        "logo": "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
+        "logo": "https://cdn.discordapp.com/attachments/910838764799148082/990471649721729094/logo.png",
         "demo_link": "https://demo.maildoll.com",
         "envato_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
         "price": "$39",
         "total_clients": "350+",
-        "theme": "khadyo-wrapper"
+        "theme": "khadyo-wrapper",
+        "hero_bg": "https://cdn.discordapp.com/attachments/910838764799148082/990464567056425030/khadyo.png",
+        "hero_img": "https://cdn.discordapp.com/attachments/910838764799148082/990472916971950130/hero_img.png"
       },
       "screenshots": [
         "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
@@ -201,34 +231,60 @@
         "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
         "lists": {
           "list_1": {
-            "title": "Video Editing",
-            "subtitle": "Video editing is a powding mcts.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/1.mp4"
           },
           "list_2": {
-            "title": "Video Uploading",
-            "subtitle": "Video, and uploading from a URL.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/steps/2.mp4"
           },
           "list_3": {
-            "title": "Video Editing",
-            "subtitle": "Video editing is a powding mcts.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 3",
+            "subtitle": "Three Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/3.mp4"
           },
           "list_4": {
-            "title": "Video Uploading",
-            "subtitle": "Video, and uploading from a URL.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+            "title": "step 4",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          }
+        }
+      },
+      "banner_docs": {
+        "title": "Maildoll Online Documentation",
+        "subtitle": "Send us your idea, it may appear on maildoll in the next update!",
+        "docs_link": "http://khadyo.softtech-it.com/"
+      },
+      "responsive_device": {
+        "lists": {
+          "list_1": {
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/responsive/mobile.mp4"
           },
-          "list_5": {
-            "title": "Video Editing",
-            "subtitle": "Video editing is a powding mcts.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          "list_2": {
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/responsive/desktop.mp4"
+          }
+        }
+      },
+      "features_two": {
+        "section_title": "The Ultimate Solution with Exclusive Apps",
+        "lists": {
+          "list_1": {
+            "title": "USER GUIDES",
+            "subtitle": " Docs for your APIs, products, FAQs and user guides,",
+            "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
+            "url": "/deski/images/assets/ils_11.svg"
           },
-          "list_6": {
-            "title": "Video Uploading",
-            "subtitle": "Video, and uploading from a URL.",
-            "icon": "https://html.creativegigstf.com/deski/deski/images/icon/97.svg"
+          "list_2": {
+            "title": "COMBINE IDEA",
+            "subtitle": "A place to think and track ideas for you & your team",
+            "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
+            "url": "/deski/images/assets/ils_12.svg"
           }
         }
       },

@@ -11,7 +11,7 @@
           <router-link
             :to="{ name: 'software', params: { software: software_name } }"
           >
-            <img :src="header.logo" :alt="header.title" />
+            <img class="logo" :src="header.logo" :alt="header.title" />
           </router-link>
         </div>
 
@@ -56,19 +56,18 @@
 				Theme Hero Banner
 			============================================== 
 			-->
-    <div class="hero-banner-three sft-hero-section">
+    <div
+      class="hero-banner-three sft-hero-section"
+      :style="{ 'background-image': 'url(' + hero_bg + ')' }"
+    >
       <div class="container">
         <div class="px-4 py-5 my-5 text-center">
           <div class="col-lg-10 mx-auto">
             <h2 class="display-5 font-weight-bold mb-4">
-              The
-              <span class="sft-color-primary">Next Generation </span>
-              <br />Email Marketing Dashboard
+              <span v-html="hero_title"></span>
             </h2>
             <p class="lead mb-4 px-5">
-              A Complete eCommerce Solution which is built by experts. Unlock
-              the power of your <br />
-              online store today with Maildoll!
+              <span v-html="hero_subtitle"></span>
             </p>
             <div class="d-flex justify-content-center mb-3">
               <button
@@ -87,24 +86,8 @@
           </div>
         </div>
 
-        <!-- <img src="deski/images/assets/ils_09.svg" alt="" class="illustration" /> -->
-        <img
-          src="/deski/images/assets/ils_09.svg"
-          alt=""
-          class="illustration"
-        />
+        <img :src="hero_img" alt="" class="illustration" />
       </div>
-      <!-- /.container -->
-      <img src="/deski/images/shape/68.svg" alt="" class="shapes shape-one" />
-      <img src="/deski/images/shape/69.svg" alt="" class="shapes shape-two" />
-      <img src="/deski/images/shape/70.svg" alt="" class="shapes shape-three" />
-      <img src="/deski/images/shape/71.svg" alt="" class="shapes shape-four" />
-      <img src="/deski/images/shape/72.svg" alt="" class="shapes shape-five" />
-      <img src="/deski/images/shape/73.svg" alt="" class="shapes shape-six" />
-      <img src="/deski/images/shape/74.svg" alt="" class="shapes shape-seven" />
-      <img src="/deski/images/shape/75.svg" alt="" class="shapes shape-eight" />
-      <img src="/deski/images/shape/76.svg" alt="" class="shapes shape-nine" />
-      <img src="/deski/images/shape/77.svg" alt="" class="shapes shape-ten" />
     </div>
 
     <!-- 
@@ -116,70 +99,31 @@
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
           <div class="col-12 col-lg-8 col-xxl-4 text-center mb-5">
-            <h2>You can try premium features before purchasing</h2>
+            <h2 v-html="fea_subtitle"></h2>
           </div>
 
           <!-- feature wrap -->
           <div class="col-lg-12 px-70">
             <div class="row">
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
+              <div
+                class="col-lg-3 col-12 col-md-6 mb-4"
+                v-for="list in fea_list"
+                :key="list"
+              >
                 <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
+                  <video
+                    :src="list.url"
+                    playsinline=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                  ></video>
+
+                  <span
+                    class="sft-color-primary text-capitalize sm-title mt-3"
+                    >{{ list.title }}</span
                   >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
+                  <a href="#" class="mt-1 title-link"> {{ list.subtitle }}</a>
                 </div>
               </div>
             </div>
@@ -198,13 +142,13 @@
         <img class="docs-pos-img" src="../img/doc-img.png" alt="img" />
 
         <div class="col-lg-6 offset-lg-3">
-          <h4 class="mb-3">Maildoll Online Documentation</h4>
-          <p>
-            Send us your idea, it may appear on maildoll in the next update!
-          </p>
+          <h4 class="mb-3" v-html="docs_banner.title"></h4>
+          <p v-html="docs_banner.subtitle"></p>
         </div>
         <div class="col-lg-2 mt-4 mt-lg-0">
-          <a href="#" class="btn btn-primary btn-lg mr-3 btn sft-btn-primary"
+          <a
+            :href="docs_banner.docs_link"
+            class="btn btn-primary btn-lg mr-3 btn sft-btn-primary"
             >Documentation</a
           >
         </div>
@@ -226,26 +170,24 @@
           <!-- feature wrap -->
           <div class="col-lg-12 px-70">
             <div class="row">
-              <div class="col-12 col-md-6 mb-4">
+              <div
+                class="col-12 col-md-6 mb-4"
+                v-for="list in res_device"
+                :key="list"
+              >
                 <div class="sft-single-fea">
-                  <img class="mx-auto" src="../img/conversion1.png" alt="" />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
+                  <video
+                    :src="list.url"
+                    playsinline=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                  ></video>
+                  <span
+                    class="sft-color-primary text-capitalize sm-title mt-3"
+                    >{{ list.title }}</span
                   >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img class="mx-auto" src="../img/conversion1.png" alt="" />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
+                  <a href="#" class="mt-1 title-link">{{ list.subtitle }}</a>
                 </div>
               </div>
             </div>
@@ -261,63 +203,34 @@
 			-->
     <div class="container">
       <div class="block-style-twelve">
-        <div class="row">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 text-center">
+            <h2 v-html="feature_section_title"></h2>
+          </div>
+        </div>
+        <div
+          class="row mt-4"
+          v-for="(list, index) in feature_list"
+          :key="index"
+          :class="index % 2 != 0 ? 'flex-row-reverse' : 'flex-row'"
+        >
           <div
             class="col-lg-6 col-md-8 mr-auto"
             data-aoss="fade-right"
             data-aos-durationn="1200"
           >
             <div class="illustration-holder">
-              <img src="/deski/images/assets/ils_11.svg" alt="" />
+              <img :src="list.url" alt="" />
             </div>
           </div>
           <div class="col-lg-5" data-aoss="fade-left" data-aos-durationn="1200">
             <div class="text-wrapper">
-              <h6>User Guides</h6>
+              <h6>{{ list.title }}</h6>
               <h2 class="font-rubik title">
-                Docs for your APIs, products, FAQs and user guides,
+                {{ list.subtitle }}
               </h2>
               <p>
-                With deksi docs, you can write, edit, let it collaborate
-                wherever you are lorem dumy text introduction.
-              </p>
-            </div>
-            <!-- /.text-wrapper -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 
-			=============================================
-				Theme Feature Section
-			============================================== 
-			-->
-    <div class="container">
-      <div class="block-style-twelve">
-        <div class="row">
-          <div
-            class="col-lg-6 col-md-8 ml-auto order-lg-last"
-            data-aoss="fade-left"
-            data-aos-durationn="1200"
-          >
-            <div class="illustration-holder">
-              <img src="/deski/images/assets/ils_12.svg" alt="" />
-            </div>
-          </div>
-          <div
-            class="col-lg-5 order-lg-first"
-            data-aoss="fade-right"
-            data-aos-durationn="1200"
-          >
-            <div class="text-wrapper">
-              <h6>Combine Idea</h6>
-              <h2 class="font-rubik title">
-                A place to think and track ideas for you & your team
-              </h2>
-              <p>
-                With deksi docs, you can write, edit, let it collaborate
-                wherever you are lorem dumy text introduction.
+                {{ list.para }}
               </p>
             </div>
             <!-- /.text-wrapper -->
@@ -1358,10 +1271,9 @@ import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 
 export default {
   mounted() {
-    console.log(DEMO_JSON[this.$route.params.software][0].features);
-
+    // console.log(DEMO_JSON[this.$route.params.software][0].features);
     // const theme = this.$route.params.software;
-    // console.log("params", theme);
+    console.log("params", this.docs_title);
   },
   components: {
     Carousel,
@@ -1373,6 +1285,27 @@ export default {
     return {
       software_name: this.$route.params.software,
       theme: DEMO_JSON[this.$route.params.software][0].header.theme,
+      // hero section
+      hero_bg: DEMO_JSON[this.$route.params.software][0].header.hero_bg,
+      hero_img: DEMO_JSON[this.$route.params.software][0].header.hero_img,
+      hero_title: DEMO_JSON[this.$route.params.software][0].header.title,
+      hero_subtitle: DEMO_JSON[this.$route.params.software][0].header.subtitle,
+      // feature section
+      fea_subtitle:
+        DEMO_JSON[this.$route.params.software][0].features.section_subtitle,
+      fea_list: DEMO_JSON[this.$route.params.software][0].features.lists,
+      // banneer docs
+      docs_banner: DEMO_JSON[this.$route.params.software][0].banner_docs,
+      // responsive device
+      res_device:
+        DEMO_JSON[this.$route.params.software][0].responsive_device.lists,
+      // feature two
+      feature_section_title:
+        DEMO_JSON[this.$route.params.software][0].features_two.section_title,
+      feature_list:
+        DEMO_JSON[this.$route.params.software][0].features_two.lists,
+
+      // header menu
       header: [],
       navbar: [],
       screenshots: [],
