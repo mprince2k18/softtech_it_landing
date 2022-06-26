@@ -209,13 +209,13 @@
           </div>
         </div>
         <div
-          class="row mt-4"
+          class="row mt-5"
           v-for="(list, index) in feature_list"
           :key="index"
           :class="index % 2 != 0 ? 'flex-row-reverse' : 'flex-row'"
         >
           <div
-            class="col-lg-6 col-md-8 mr-auto"
+            class="col-lg-6 col-md-8"
             data-aoss="fade-right"
             data-aos-durationn="1200"
           >
@@ -249,187 +249,52 @@
           class="tab-pane fade show active"
           id="one"
           role="tabpanel"
-          aria-labelledby="one-tab"
+          aria-labelledby="tab-0"
         >
           <video
-            id="my-video"
-            class="video-js"
+            id="vid1"
+            class="video-js vjs-default-skin"
             controls
-            preload="auto"
-            autoplay="true"
-            data-setup="{}"
-          >
-            <source src="/video/dashboard-video.mp4" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider
-              upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
+            autoplay
+            width="640"
+            height="264"
+            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=C_xKmjJlR7g"}], "youtube": { "customVars": { "wmode": "transparent" } } }'
+          ></video>
         </div>
         <div
           class="tab-pane fade"
-          id="two"
+          id="one"
           role="tabpanel"
-          aria-labelledby="two-tab"
+          aria-labelledby="tab-1"
         >
           <video
-            id="my-video"
-            class="video-js"
+            id="vid1"
+            class="video-js vjs-default-skin"
             controls
-            preload="auto"
-            autoplay="true"
-            data-setup="{}"
-          >
-            <source src="/video/dashboard-video.mp4" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider
-              upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
-        </div>
-        <div
-          class="tab-pane fade"
-          id="three"
-          role="tabpanel"
-          aria-labelledby="three-tab"
-        >
-          <video
-            id="my-video"
-            class="video-js"
-            controls
-            preload="auto"
-            autoplay="true"
-            data-setup="{}"
-          >
-            <source src="/video/dashboard-video.mp4" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider
-              upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
-        </div>
-        <div
-          class="tab-pane fade"
-          id="four"
-          role="tabpanel"
-          aria-labelledby="four-tab"
-        >
-          <video
-            id="my-video"
-            class="video-js"
-            controls
-            preload="auto"
-            autoplay="true"
-            data-setup="{}"
-          >
-            <source src="/video/dashboard-video.mp4" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider
-              upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
-        </div>
-        <div
-          class="tab-pane fade"
-          id="five"
-          role="tabpanel"
-          aria-labelledby="five-tab"
-        >
-          <video
-            id="my-video"
-            class="video-js"
-            controls
-            preload="auto"
-            autoplay="true"
-            data-setup="{}"
-          >
-            <source src="/video/dashboard-video.mp4" type="video/mp4" />
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider
-              upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
+            autoplay
+            width="640"
+            height="264"
+            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=Al037W-jFxQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'
+          ></video>
         </div>
       </div>
-      <ul class="nav mt-4" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
+      <ul class="nav mt-4 justify-content-center" id="myTab" role="tablist">
+        <li
+          class="nav-item"
+          role="presentation"
+          v-for="item in tab_video"
+          :key="item"
+        >
           <a
-            class="nav-link btn btn-primary btn-lg mr-3 btn active video-btn"
-            id="one-tab"
+            class="nav-link btn btn-primary btn-lg mr-3 btn active video-btn w-initial"
+            :id="item.nav_id"
             data-toggle="tab"
             href="#one"
             role="tab"
             aria-controls="one"
             aria-selected="true"
-            ><i class="fa fa-play-circle" aria-hidden="true"></i> one</a
-          >
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
-            id="two-tab"
-            data-toggle="tab"
-            href="#two"
-            role="tab"
-            aria-controls="two"
-            aria-selected="false"
-            ><i class="fa fa-play-circle" aria-hidden="true"></i> two</a
-          >
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
-            id="three-tab"
-            data-toggle="tab"
-            href="#three"
-            role="tab"
-            aria-controls="three"
-            aria-selected="false"
-            ><i class="fa fa-play-circle" aria-hidden="true"></i> three</a
-          >
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
-            id="four-tab"
-            data-toggle="tab"
-            href="#four"
-            role="tab"
-            aria-controls="four"
-            aria-selected="false"
-            ><i class="fa fa-play-circle" aria-hidden="true"></i> four</a
-          >
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn"
-            id="five-tab"
-            data-toggle="tab"
-            href="#five"
-            role="tab"
-            aria-controls="five"
-            aria-selected="false"
-            ><i class="fa fa-play-circle" aria-hidden="true"></i> five</a
+            ><i class="fa fa-play-circle" aria-hidden="true"></i>
+            {{ item.title }}</a
           >
         </li>
       </ul>
@@ -1304,6 +1169,8 @@ export default {
         DEMO_JSON[this.$route.params.software][0].features_two.section_title,
       feature_list:
         DEMO_JSON[this.$route.params.software][0].features_two.lists,
+      // tab video
+      tab_video: DEMO_JSON[this.$route.params.software][0].tab_video,
 
       // header menu
       header: [],

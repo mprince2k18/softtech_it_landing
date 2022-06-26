@@ -115,21 +115,43 @@
       },
       "features_two": {
         "section_title": "The Ultimate Solution with Exclusive Apps",
-        "lists": {
-          "list_1": {
+        "lists": [
+          {
             "title": "USER GUIDES",
             "subtitle": " Docs for your APIs, products, FAQs and user guides,",
             "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
             "url": "/deski/images/assets/ils_11.svg"
           },
-          "list_2": {
+          {
             "title": "COMBINE IDEA",
             "subtitle": "A place to think and track ideas for you & your team",
             "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
             "url": "/deski/images/assets/ils_12.svg"
           }
-        }
+        ]
       },
+      "tab_video": [
+        {
+          "title": "install fresh content",
+          "url": "https://www.youtube.com/watch?v=C_xKmjJlR7g"
+        },
+        {
+          "title": "install dummy content",
+          "url": "https://www.youtube.com/watch?v=Al037W-jFxQ"
+        },
+        {
+          "title": "frontend editor",
+          "url": "https://www.youtube.com/watch?v=S46RZW_MIrs"
+        },
+        {
+          "title": "language",
+          "url": "https://www.youtube.com/watch?v=Sw0S1dfg4IY"
+        },
+        {
+          "title": "currency",
+          "url": "https://www.youtube.com/watch?v=tTu27_TRx1E"
+        }
+      ],
       "pricing": {
         "section_title": "OUR PRICING",
         "section_subtitle": "Unbeatable prices, no contracts, simple & easy",
@@ -273,21 +295,48 @@
       },
       "features_two": {
         "section_title": "The Ultimate Solution with Exclusive Apps",
-        "lists": {
-          "list_1": {
+        "lists": [
+          {
             "title": "USER GUIDES",
             "subtitle": " Docs for your APIs, products, FAQs and user guides,",
             "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
             "url": "/deski/images/assets/ils_11.svg"
           },
-          "list_2": {
+          {
             "title": "COMBINE IDEA",
             "subtitle": "A place to think and track ideas for you & your team",
             "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
             "url": "/deski/images/assets/ils_12.svg"
           }
-        }
+        ]
       },
+      "tab_video": [
+        {
+          "nav_id": "nav-one",
+          "title": "install on server",
+          "url": "https://www.youtube.com/watch?v=pBWLyEnmza4"
+        },
+        {
+          "nav_id": "nav-two",
+          "title": "install on localhost",
+          "url": "https://www.youtube.com/watch?v=Al037W-jFxQ"
+        },
+        {
+          "nav_id": "nav-three",
+          "title": "upload file",
+          "url": "https://www.youtube.com/watch?v=mqUa9wZy_SY"
+        },
+        {
+          "nav_id": "nav-four",
+          "title": "database",
+          "url": "https://www.youtube.com/watch?v=kS-rOxyKizo"
+        },
+        {
+          "nav_id": "nav-five",
+          "title": "pos",
+          "url": "https://www.youtube.com/watch?v=jE1k7JLykvY"
+        }
+      ],
       "pricing": {
         "section_title": "OUR PRICING",
         "section_subtitle": "Unbeatable prices, no contracts, simple & easy",

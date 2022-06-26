@@ -271,8 +271,11 @@
   border-radius: 10px;
   padding: 25px;
 }
+.w-initial {
+  width: initial!important;
+}
 .video-js .vjs-big-play-button {
-  font-size: 3em;
+  /* font-size: 3em;
   line-height: 1.5em;
   height: 1.63332em;
   width: 3em;
@@ -291,7 +294,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%); */
+  opacity: 0;
+  visibility: hidden;
 }
 
 .video-btn {
