@@ -360,240 +360,48 @@
       <div class="container">
         <div class="border-top pt-150 md-pt-100">
           <div class="title-style-twelve text-center pb-120 md-pb-60">
-            <h2>
-              <span
-                >Get your plan<img
-                  src="/deski/imagesshape/line-shape-13.svg"
-                  alt=""
-              /></span>
-            </h2>
-            <p class="mt-40 md-mt-20">
-              Get access to the largest library of legal forms and easily
-              integrate deski into your apps
-            </p>
+            <h2 v-html="pricing.section_title"></h2>
+            <p class="mt-40 md-mt-20" v-html="pricing.section_subtitle"></p>
           </div>
         </div>
 
         <div class="row no-gutters position-relative">
           <div class="col-lg-3 pr-list-wrapper d-none d-lg-block">
             <ul>
-              <li>Send documents for eSigning</li>
-              <li>Multiple User</li>
-              <li>Refund</li>
-              <li>Bulk invite to sign</li>
-              <li>Live Chat</li>
-              <li>Send invite via Link</li>
+              <li v-for="price in pricing.fea_names" :key="price">
+                {{ price }}
+              </li>
             </ul>
           </div>
           <div class="col-lg-9 pr-table-wrapper ml-auto">
             <div class="row no-gutters">
-              <div class="col-md-4 pr-column">
+              <div
+                class="col-md-4 pr-column"
+                v-for="plan in pricing.plans"
+                :key="plan"
+              >
                 <div class="pr-header">
-                  <div class="plan">Silver Plan</div>
-                  <div class="price">$97</div>
-                  <div class="info">Great for Individial Person</div>
+                  <div class="plan">{{ plan.plan_name }}</div>
+                  <div class="price">{{ plan.plan_price }}</div>
+                  <div class="info">{{ plan.subtitle }}</div>
                 </div>
                 <!-- /.pr-header -->
                 <div class="pr-body">
                   <ul>
-                    <li>
-                      <span class="pr-text d-lg-none"
-                        >Send documents for eSigning</span
-                      >
-                      <img
-                        src="/deski/images/icon/154.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Multiple User</span>
-                      <img
-                        src="/deski/images/icon/154.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Refund</span>
-                      <img
-                        src="/deski/images/icon/154.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Bulk invite to sign</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Live Chat</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none"
-                        >Send invite via Link</span
-                      >
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
+                    <li v-for="fea in plan.fea_availability" :key="fea">
+                      <img :src="fea" alt="" class="m-auto" />
                     </li>
                   </ul>
                 </div>
                 <div class="pr-footer">
-                  <a href="#" class="trial-button">Sign up</a>
-                  <div class="trial-text">Get your 30 day free trial</div>
+                  <a :href="plan.foo_btn_link" class="trial-button">{{
+                    plan.foo_btn_txt
+                  }}</a>
+                  <div class="trial-text">
+                    {{ plan.foo_subtitle }}
+                  </div>
                 </div>
               </div>
-              <!-- /.pr-column -->
-              <div class="col-md-4 pr-column">
-                <div class="pr-header">
-                  <div class="plan">Gold Plan</div>
-                  <div class="price">$199</div>
-                  <div class="info">Great for Startup</div>
-                </div>
-                <!-- /.pr-header -->
-                <div class="pr-body">
-                  <ul>
-                    <li>
-                      <span class="pr-text d-lg-none"
-                        >Send documents for eSigning</span
-                      >
-                      <img
-                        src="/deski/images/icon/154.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Multiple User</span>
-                      <img
-                        src="/deski/images/icon/154.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Refund</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Bulk invite to sign</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Live Chat</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none"
-                        >Send invite via Link</span
-                      >
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                  </ul>
-                </div>
-                <div class="pr-footer">
-                  <a href="#" class="trial-button">Sign up</a>
-                  <div class="trial-text">Get your 30 day free trial</div>
-                </div>
-              </div>
-              <!-- /.pr-column -->
-              <div class="col-md-4 pr-column">
-                <div class="pr-header">
-                  <div class="plan">Business Plan</div>
-                  <div class="price">$239</div>
-                  <div class="info">Great for Large Business</div>
-                </div>
-                <!-- /.pr-header -->
-                <div class="pr-body">
-                  <ul>
-                    <li>
-                      <span class="pr-text d-lg-none"
-                        >Send documents for eSigning</span
-                      >
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Multiple User</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Refund</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Bulk invite to sign</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none">Live Chat</span>
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                    <li>
-                      <span class="pr-text d-lg-none"
-                        >Send invite via Link</span
-                      >
-                      <img
-                        src="/deski/images/icon/155.svg"
-                        alt=""
-                        class="m-auto"
-                      />
-                    </li>
-                  </ul>
-                </div>
-                <div class="pr-footer">
-                  <a href="#" class="trial-button">Sign up</a>
-                  <div class="trial-text">Get your 30 day free trial</div>
-                </div>
-              </div>
-              <!-- /.pr-column -->
             </div>
           </div>
         </div>
@@ -1125,6 +933,9 @@ export default {
       tab_video: DEMO_JSON[this.$route.params.software][0].tab_video,
       // feedback /testimonials
       testimonial: DEMO_JSON[this.$route.params.software][0].testimonials,
+      // feedback /testimonials
+      pricing: DEMO_JSON[this.$route.params.software][0].pricing,
+      pricing_plans: DEMO_JSON[this.$route.params.software][0].plans,
 
       // header menu
       header: [],

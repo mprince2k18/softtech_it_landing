@@ -153,6 +153,68 @@
         }
       ],
       "pricing": {
+        "section_title": "<span>Get your plan<img src='/deski/images/shape/line-shape-13.svg'alt=''/></span>",
+        "section_subtitle": "Get access to the largest library of legal forms and easily integrate deski into your apps",
+        "fea_names": [
+          "Send documents for eSigning one",
+          "Multiple User",
+          "Refund",
+          "Bulk invite to sign",
+          "Live Chat",
+          "Send invite via Link last"
+        ],
+        "plans": [
+          {
+            "plan_name": "silver plan",
+            "plan_price": "$97",
+            "subtitle": "Great for Individial Person",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          },
+          {
+            "plan_name": "gold plan",
+            "plan_price": "$199",
+            "subtitle": "Great for Startup",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          },
+          {
+            "plan_name": "business plan",
+            "plan_price": "$299",
+            "subtitle": "Great for Large Business",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          }
+        ]
+      },
+      "pricing_1": {
         "section_title": "OUR PRICING",
         "section_subtitle": "Unbeatable prices, no contracts, simple & easy",
         "lists": {
