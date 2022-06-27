@@ -254,30 +254,16 @@
           role="tabpanel"
           :aria-labelledby="'home-' + index"
         >
-          <!-- {{ tab.url }} -->
-          <!-- <video
-            id="vid1"
-            class="video-js vjs-default-skin"
-            controls
-            autoplay
-            width="640"
-            height="264"
-            data-setup='{ 
-            "techOrder": ["youtube"],
-            "sources": [{ "type": "video/youtube",
-              "src": ""
-              }],
-               "youtube": { "customVars": { "wmode": "transparent" } } }'
-          ></video> -->
-
-          <video width="320" height="240" autoplay muted>
-            <source
-              src="https://www.youtube.com/watch?v=tTu27_TRx1E"
-              type="video/youtube"
-            />
-            <source src="movie.ogg" type="video/ogg" />
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            width="100"
+            height="450"
+            class="w-100"
+            :src="tab.url"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <ul
@@ -311,58 +297,20 @@
 			=====================================================
 			-->
     <div class="client-feedback-slider-two mt-180 md-mt-100">
-      <img
-        src="/deski//deski/imagesshape/78.svg"
-        alt=""
-        class="shapes shape-one"
-      />
-      <img
-        src="/deski//deski/imagesshape/79.svg"
-        alt=""
-        class="shapes shape-two"
-      />
-      <img
-        src="/deski//deski/imagesshape/80.svg"
-        alt=""
-        class="shapes shape-three"
-      />
-      <img
-        src="/deski//deski/imagesshape/81.svg"
-        alt=""
-        class="shapes shape-four"
-      />
-      <img
-        src="/deski//deski/imagesshape/82.svg"
-        alt=""
-        class="shapes shape-five"
-      />
-      <img
-        src="/deski//deski/imagesshape/83.svg"
-        alt=""
-        class="shapes shape-six"
-      />
-      <img
-        src="/deski//deski/imagesshape/84.svg"
-        alt=""
-        class="shapes shape-seven"
-      />
-      <img
-        src="/deski//deski/imagesshape/85.svg"
-        alt=""
-        class="shapes shape-eight"
-      />
+      <img src="/deski/imagesshape/78.svg" alt="" class="shapes shape-one" />
+      <img src="/deski/imagesshape/79.svg" alt="" class="shapes shape-two" />
+      <img src="/deski/imagesshape/80.svg" alt="" class="shapes shape-three" />
+      <img src="/deski/imagesshape/81.svg" alt="" class="shapes shape-four" />
+      <img src="/deski/imagesshape/82.svg" alt="" class="shapes shape-five" />
+      <img src="/deski/imagesshape/83.svg" alt="" class="shapes shape-six" />
+      <img src="/deski/imagesshape/84.svg" alt="" class="shapes shape-seven" />
+      <img src="/deski/imagesshape/85.svg" alt="" class="shapes shape-eight" />
       <div class="container">
         <div class="title-style-four text-center mb-100 md-mb-60">
           <div class="row">
             <div class="col-lg-7 col-md-9 m-auto">
-              <h6>Feedback</h6>
-              <h2>
-                What’s Our Client Say
-                <span
-                  >About Us
-                  <img src="/deski//deski/imagesshape/line-shape-2.svg" alt=""
-                /></span>
-              </h2>
+              <h6 v-html="testimonial.section_title"></h6>
+              <h2 v-html="testimonial.section_subtitle"></h2>
             </div>
           </div>
         </div>
@@ -372,21 +320,19 @@
         <div class="slider-content">
           <div class="clientSliderTwo">
             <carousel :items-to-show="1.5">
-              <slide v-for="slide in 10" :key="slide">
+              <slide v-for="slide in testimonial.lists" :key="slide">
                 <div class="item">
                   <div class="bg-wrapper">
                     <img
                       src="/deski/images/logo/logo-8.png"
                       alt=""
-                      class="logo"
+                      class="logo mx-auto"
                     />
                     <p>
-                      Lorem ipsum dolor sit, consectetu qsu some adipiscing elit
-                      eiusmod temp incididu nt ut labore e dol magna great
-                      aliqua.mollit ani muim.
+                      {{ slide.description }}
                     </p>
-                    <div class="name font-rubik">Rashed Ka.</div>
-                    <div class="desig">Founder CreativeGigs</div>
+                    <div class="name font-rubik">{{ slide.name }}</div>
+                    <div class="desig">{{ slide.desig }}</div>
                   </div>
                 </div>
               </slide>
@@ -1177,6 +1123,8 @@ export default {
         DEMO_JSON[this.$route.params.software][0].features_two.lists,
       // tab video
       tab_video: DEMO_JSON[this.$route.params.software][0].tab_video,
+      // feedback /testimonials
+      testimonial: DEMO_JSON[this.$route.params.software][0].testimonials,
 
       // header menu
       header: [],

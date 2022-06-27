@@ -133,23 +133,23 @@
       "tab_video": [
         {
           "title": "install fresh content",
-          "url": "https://www.youtube.com/watch?v=C_xKmjJlR7g"
+          "url": "https://www.youtube.com/embed/C_xKmjJlR7g"
         },
         {
           "title": "install dummy content",
-          "url": "https://www.youtube.com/watch?v=Al037W-jFxQ"
+          "url": "https://www.youtube.com/embed/Al037W-jFxQ"
         },
         {
           "title": "frontend editor",
-          "url": "https://www.youtube.com/watch?v=S46RZW_MIrs"
+          "url": "https://www.youtube.com/embed/S46RZW_MIrs"
         },
         {
           "title": "language",
-          "url": "https://www.youtube.com/watch?v=Sw0S1dfg4IY"
+          "url": "https://www.youtube.com/embed/Sw0S1dfg4IY"
         },
         {
           "title": "currency",
-          "url": "https://www.youtube.com/watch?v=tTu27_TRx1E"
+          "url": "https://www.youtube.com/embed/tTu27_TRx1E"
         }
       ],
       "pricing": {
@@ -208,21 +208,24 @@
       },
       "testimonials": {
         "section_title": "FEEDBACK",
-        "section_subtitle": "Trusted by 1250+ of clients.",
+        "section_subtitle": "What’s Our Client Say <span>About Us<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
         "lists": {
           "list_1": {
+            "img": "/deski/images/logo/logo-8.png",
             "name": "Martin Jonas",
-            "country": "USA",
+            "desig": "Founder CreativeGigs",
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
           "list_2": {
+            "img": "/deski/images/logo/logo-8.png",
             "name": "Prince",
-            "country": "USA",
+            "desig": "CEO Soft",
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
           "list_3": {
+            "img": "/deski/images/logo/logo-8.png",
             "name": "Martin Jonas",
-            "country": "USA",
+            "desig": "CFO GreenValley",
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
         }
@@ -314,27 +317,27 @@
         {
           "nav_id": "nav-one",
           "title": "install on server",
-          "url": "https://www.youtube.com/watch?v=pBWLyEnmza4"
+          "url": "https://www.youtube.com/embed/pBWLyEnmza4"
         },
         {
           "nav_id": "nav-two",
           "title": "install on localhost",
-          "url": "https://www.youtube.com/watch?v=Al037W-jFxQ"
+          "url": "https://www.youtube.com/embed/Al037W-jFxQ"
         },
         {
           "nav_id": "nav-three",
           "title": "upload file",
-          "url": "https://www.youtube.com/watch?v=mqUa9wZy_SY"
+          "url": "https://www.youtube.com/embed/mqUa9wZy_SY"
         },
         {
           "nav_id": "nav-four",
           "title": "database",
-          "url": "https://www.youtube.com/watch?v=kS-rOxyKizo"
+          "url": "https://www.youtube.com/embed/kS-rOxyKizo"
         },
         {
           "nav_id": "nav-five",
           "title": "pos",
-          "url": "https://www.youtube.com/watch?v=jE1k7JLykvY"
+          "url": "https://www.youtube.com/embed/jE1k7JLykvY"
         }
       ],
       "pricing": {
@@ -393,21 +396,24 @@
       },
       "testimonials": {
         "section_title": "FEEDBACK",
-        "section_subtitle": "Trusted by 1250+ of clients.",
+        "section_subtitle": "What’s Our Client Say <span>About Us<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
         "lists": {
           "list_1": {
+            "img": "/deski/images/logo/logo-8.png",
             "name": "Martin Jonas",
-            "country": "USA",
+            "desig": "Founder CreativeGigs",
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
           "list_2": {
+            "img": "/deski/images/logo/logo-8.png",
             "name": "Prince",
-            "country": "USA",
+            "desig": "CEO Soft",
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           },
           "list_3": {
+            "img": "/deski/images/logo/logo-8.png",
             "name": "Martin Jonas",
-            "country": "USA",
+            "desig": "CFO GreenValley",
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
         }
