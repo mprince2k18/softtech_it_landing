@@ -71,28 +71,74 @@
       "features": {
         "section_title": "Features",
         "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
-        "lists": {
-          "list_1": {
+        "lists": [
+          {
             "title": "step 1",
             "subtitle": " One Go to and write your store’s name ",
             "url": "/img/maildoll/steps/1.mp4"
           },
-          "list_2": {
+          {
             "title": "step 2",
             "subtitle": "Two Go to and write your store’s name",
             "url": "/img/maildoll/steps/2.mp4"
           },
-          "list_3": {
+          {
             "title": "step 3",
             "subtitle": "Three Go to and write your store’s name ",
             "url": "/img/maildoll/steps/3.mp4"
           },
-          "list_4": {
+          {
             "title": "step 4",
             "subtitle": "Four Go to and write your store’s name ",
             "url": "/img/maildoll/steps/4.mp4"
           }
-        }
+        ]
+      },
+      "instructional_vdo": {
+        "section_title": "Features",
+        "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
+        "lists": [
+          {
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/1.mp4"
+          },
+          {
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/steps/2.mp4"
+          },
+          {
+            "title": "step 3",
+            "subtitle": "Three Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/3.mp4"
+          },
+          {
+            "title": "step 4",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 5",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 6",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 7",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 8",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          }
+        ]
       },
       "banner_docs": {
         "title": "Maildoll Online Documentation",
@@ -156,12 +202,12 @@
         "section_title": "<span>Get your plan<img src='/deski/images/shape/line-shape-13.svg'alt=''/></span>",
         "section_subtitle": "Get access to the largest library of legal forms and easily integrate deski into your apps",
         "fea_names": [
-          "Send documents for eSigning one",
+          "Send documents for eSigning",
           "Multiple User",
           "Refund",
           "Bulk invite to sign",
           "Live Chat",
-          "Send invite via Link last"
+          "Send invite via Link"
         ],
         "plans": [
           {
@@ -316,28 +362,94 @@
       "features": {
         "section_title": "Features",
         "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
-        "lists": {
-          "list_1": {
+        "lists": [
+          {
             "title": "step 1",
             "subtitle": " One Go to and write your store’s name ",
             "url": "/img/maildoll/steps/1.mp4"
           },
-          "list_2": {
+          {
             "title": "step 2",
             "subtitle": "Two Go to and write your store’s name",
             "url": "/img/maildoll/steps/2.mp4"
           },
-          "list_3": {
+          {
             "title": "step 3",
             "subtitle": "Three Go to and write your store’s name ",
             "url": "/img/maildoll/steps/3.mp4"
           },
-          "list_4": {
+          {
             "title": "step 4",
             "subtitle": "Four Go to and write your store’s name ",
             "url": "/img/maildoll/steps/4.mp4"
           }
-        }
+        ]
+      },
+      "instructional_vdo": {
+        "section_title": "Features",
+        "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
+        "lists": [
+          {
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/1.mp4"
+          },
+          {
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/steps/2.mp4"
+          },
+          {
+            "title": "step 3",
+            "subtitle": "Three Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/3.mp4"
+          },
+          {
+            "title": "step 4",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 5",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 6",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 7",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 8",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 9",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 10",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 11",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 12",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          }
+        ]
       },
       "banner_docs": {
         "title": "Maildoll Online Documentation",
@@ -403,6 +515,68 @@
         }
       ],
       "pricing": {
+        "section_title": "<span>Get your plan<img src='/deski/images/shape/line-shape-13.svg'alt=''/></span>",
+        "section_subtitle": "Get access to the largest library of legal forms and easily integrate deski into your apps",
+        "fea_names": [
+          "Send documents for eSigning",
+          "Multiple User",
+          "Refund",
+          "Bulk invite to sign",
+          "Live Chat",
+          "Send invite via Link"
+        ],
+        "plans": [
+          {
+            "plan_name": "silver plan",
+            "plan_price": "$97",
+            "subtitle": "Great for Individial Person",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          },
+          {
+            "plan_name": "gold plan",
+            "plan_price": "$199",
+            "subtitle": "Great for Startup",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          },
+          {
+            "plan_name": "business plan",
+            "plan_price": "$299",
+            "subtitle": "Great for Large Business",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          }
+        ]
+      },
+      "pricing_1": {
         "section_title": "OUR PRICING",
         "section_subtitle": "Unbeatable prices, no contracts, simple & easy",
         "lists": {

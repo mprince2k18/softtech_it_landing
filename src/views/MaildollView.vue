@@ -417,130 +417,31 @@
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
           <div class="col-12 col-lg-8 col-xxl-4 text-center mb-5">
-            <h2>10+ Feature-instructional videos that help you to control</h2>
+            <h2>{{ instructional_vdo.section_title }}</h2>
           </div>
 
           <!-- feature wrap -->
           <div class="col-lg-12 px-70">
             <div class="row">
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
+              <div
+                class="col-lg-3 col-12 col-md-6 mb-4"
+                v-for="list in instructional_vdo.lists"
+                :key="list"
+              >
                 <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
+                  <video
+                    :src="list.url"
+                    playsinline=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                  ></video>
+
+                  <span
+                    class="sft-color-primary text-capitalize sm-title mt-3"
+                    >{{ list.title }}</span
                   >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-3 col-12 col-md-6 mb-4">
-                <div class="sft-single-fea">
-                  <img
-                    class="w-100"
-                    src="../img/maildoll-new-landing.png"
-                    alt=""
-                  />
-                  <span class="sft-color-primary text-capitalize sm-title mt-3"
-                    >step 01</span
-                  >
-                  <a href="#" class="mt-1 title-link"
-                    >Go to and write your store’s name</a
-                  >
+                  <a href="#" class="mt-1 title-link"> {{ list.subtitle }}</a>
                 </div>
               </div>
             </div>
@@ -580,7 +481,7 @@
         <div class="row">
           <div class="col-lg-6">
             <!-- ================== FAQ Panel ================ -->
-            <div id="accordion">
+            <div class="accordion" id="accordion-faq">
               <div class="card">
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
@@ -898,7 +799,7 @@ export default {
   mounted() {
     // console.log(DEMO_JSON[this.$route.params.software][0].features);
     // const theme = this.$route.params.software;
-    console.log("params", this.docs_title);
+    console.log("params", instructional_vdo.lists);
   },
   components: {
     Carousel,
@@ -936,6 +837,9 @@ export default {
       // feedback /testimonials
       pricing: DEMO_JSON[this.$route.params.software][0].pricing,
       pricing_plans: DEMO_JSON[this.$route.params.software][0].plans,
+      // instructional video
+      instructional_vdo:
+        DEMO_JSON[this.$route.params.software][0].instructional_vdo,
 
       // header menu
       header: [],
