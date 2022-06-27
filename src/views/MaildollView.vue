@@ -246,60 +246,65 @@
     <div class="container mt-120 mb-120">
       <div class="tab-content" id="myTabContent">
         <div
-          class="tab-pane fade show active"
-          id="one"
-          role="tabpanel"
-          aria-labelledby="tab-0"
-        >
-          <video
-            id="vid1"
-            class="video-js vjs-default-skin"
-            controls
-            autoplay
-            width="640"
-            height="264"
-            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=C_xKmjJlR7g"}], "youtube": { "customVars": { "wmode": "transparent" } } }'
-          ></video>
-        </div>
-        <div
+          v-for="(tab, index) in tab_video"
+          :key="index"
           class="tab-pane fade"
-          id="one"
+          :class="index == 0 ? 'show active' : ''"
+          :id="'hom-' + index"
           role="tabpanel"
-          aria-labelledby="tab-1"
+          :aria-labelledby="'home-' + index"
         >
-          <video
+          <!-- {{ tab.url }} -->
+          <!-- <video
             id="vid1"
             class="video-js vjs-default-skin"
             controls
             autoplay
             width="640"
             height="264"
-            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=Al037W-jFxQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'
-          ></video>
+            data-setup='{ 
+            "techOrder": ["youtube"],
+            "sources": [{ "type": "video/youtube",
+              "src": ""
+              }],
+               "youtube": { "customVars": { "wmode": "transparent" } } }'
+          ></video> -->
+
+          <video width="320" height="240" autoplay muted>
+            <source
+              src="https://www.youtube.com/watch?v=tTu27_TRx1E"
+              type="video/youtube"
+            />
+            <source src="movie.ogg" type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
-      <ul class="nav mt-4 justify-content-center" id="myTab" role="tablist">
+      <ul
+        class="nav nav-item d-flex justify-content-center align-items-center mt-5"
+        id="myTab"
+        role="tablist"
+      >
         <li
+          v-for="(tab, index) in tab_video"
+          :key="index"
           class="nav-item"
           role="presentation"
-          v-for="item in tab_video"
-          :key="item"
         >
           <a
-            class="nav-link btn btn-primary btn-lg mr-3 btn active video-btn w-initial"
-            :id="item.nav_id"
+            class="nav-link btn btn-primary btn-lg mr-3 btn video-btn w-initial"
+            :class="index == 0 ? 'active' : ''"
+            :id="'home-' + index"
             data-toggle="tab"
-            href="#one"
+            :href="'#hom-' + index"
             role="tab"
-            aria-controls="one"
+            :aria-controls="'hom-' + index"
             aria-selected="true"
-            ><i class="fa fa-play-circle" aria-hidden="true"></i>
-            {{ item.title }}</a
+            >{{ tab.title }}</a
           >
         </li>
       </ul>
     </div>
-
     <!--
 			=====================================================
 				Client Feedback Slider Two
@@ -1133,6 +1138,7 @@ import DEMO_JSON from "../json/demo.json";
 import "vue3-carousel/dist/carousel.css";
 
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+// import bootstrap
 
 export default {
   mounted() {
