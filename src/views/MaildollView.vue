@@ -160,11 +160,14 @@
 				Theme Feature Section
 			============================================== 
 			-->
-    <div class="sft-fea-section convertion-section">
+    <div
+      class="sft-fea-section convertion-section"
+      :style="{ 'background-image': 'url(' + res_device.section_bg + ')' }"
+    >
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
           <div class="col-12 col-lg-8 col-xxl-4 text-center mb-5">
-            <h2>Instantly Improve Conversions by 120% in a day</h2>
+            <h2>{{ res_device.section_title }}</h2>
           </div>
 
           <!-- feature wrap -->
@@ -172,7 +175,7 @@
             <div class="row">
               <div
                 class="col-12 col-md-6 mb-4"
-                v-for="list in res_device"
+                v-for="list in res_device_list"
                 :key="list"
               >
                 <div class="sft-single-fea">
@@ -314,7 +317,7 @@
       <div class="container">
         <div class="slider-content">
           <div class="clientSliderTwo">
-            <carousel :items-to-show="1.5">
+            <carousel :settings="settings">
               <slide v-for="slide in testimonial.lists" :key="slide">
                 <div class="item">
                   <div class="bg-wrapper">
@@ -332,10 +335,10 @@
                 </div>
               </slide>
 
-              <!-- <template #addons>
-              <navigation />
-              <pagination />
-            </template> -->
+              <template #addons>
+                <navigation />
+                <pagination />
+              </template>
             </carousel>
           </div>
         </div>
@@ -543,15 +546,15 @@
 			=====================================================
 			-->
     <div class="fancy-short-banner-four">
-      <div
-        class="container"
-        :style="{
-          'background-image': 'url(' + short_banner.section_bg + ')',
-          'background-size': '100%',
-          'background-repeat': 'no-repeat',
-        }"
-      >
-        <div class="bg-wrapper bg-purple rounded-lg">
+      <div class="container">
+        <div
+          class="bg-wrapper bg-mobile-none rounded-lg"
+          :style="{
+            'background-image': 'url(' + short_banner.section_bg + ')',
+            'background-size': '100% 100%',
+            'background-repeat': 'no-repeat',
+          }"
+        >
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-6">
               <div class="title text-center">
@@ -698,12 +701,11 @@
 @import "./responsive.css";
 </style>
 <script>
+// data
 import DEMO_JSON from "../json/demo.json";
-
+// vue carousel
 import "vue3-carousel/dist/carousel.css";
-
-import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
-// import bootstrap
+import { Carousel, Slide, Navigation } from "vue3-carousel";
 
 export default {
   mounted() {
@@ -714,7 +716,6 @@ export default {
   components: {
     Carousel,
     Slide,
-    Pagination,
     Navigation,
   },
   data() {
@@ -733,7 +734,8 @@ export default {
       // banneer docs
       docs_banner: DEMO_JSON[this.$route.params.software][0].banner_docs,
       // responsive device
-      res_device:
+      res_device: DEMO_JSON[this.$route.params.software][0].responsive_device,
+      res_device_list:
         DEMO_JSON[this.$route.params.software][0].responsive_device.lists,
       // feature two
       feature_section_title:
@@ -766,6 +768,9 @@ export default {
       settings: {
         itemsToShow: 3,
         snapAlign: "center",
+        autoplay: "2000",
+        transition: "300",
+        wrapAround: true,
       },
       // breakpoints are mobile first
       // any settings not specified will fallback to the carousel settings

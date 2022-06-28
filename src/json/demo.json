@@ -146,6 +146,8 @@
         "docs_link": "https://maildoll.gitbook.io/maildoll-email-and-sms-marketing-application/"
       },
       "responsive_device": {
+        "section_bg": "/img/clms/responsive.png",
+        "section_title": "Instantly Improve Conversions by 120% in a day",
         "lists": {
           "list_1": {
             "title": "step 1",
@@ -260,60 +262,6 @@
           }
         ]
       },
-      "pricing_1": {
-        "section_title": "OUR PRICING",
-        "section_subtitle": "Unbeatable prices, no contracts, simple & easy",
-        "lists": {
-          "regular license": {
-            "title": "Regular License",
-            "subtitle": "per license/lifetime",
-            "price": "$39",
-            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
-            "features": [
-              "✔ LIFETIME UPDATE",
-              "✔ PERMITTED FOR 1 DOMAIN",
-              "✔ 6 MONTHS TECHNICAL SUPPORT",
-              "✔ REMOTE SUPPORT (Installation only)",
-              "✔ FOR PERSONAL PROJECT",
-              "✔ FREE INSTALLATION (CPANEL)",
-              "✔ LIVE MESSENGER CHAT",
-              "✗ FOR COMMERCIAL PRJOECT"
-            ]
-          },
-          "extended license": {
-            "title": "Extended License",
-            "subtitle": "per license/lifetime",
-            "price": "$199",
-            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
-            "features": [
-              "✔ LIFETIME UPDATE",
-              "✔ PERMITTED FOR MULTIPLE DOMAIN",
-              "✔ 12 MONTHS TECHNICAL SUPPORT",
-              "✔ REMOTE SUPPORT (Installation only)",
-              "✔ FOR PERSONAL PROJECT",
-              "✔ FREE INSTALLATION (CPANEL)",
-              "✔ LIVE MESSENGER CHAT",
-              "✔ FOR COMMERCIAL PRJOECT"
-            ]
-          },
-          "customization": {
-            "title": "Customization",
-            "subtitle": "on demand of task",
-            "price": "Contact us",
-            "purchase_link": "http://softtechitsupport.com",
-            "features": [
-              "✔ LIFETIME UPDATE",
-              "✔ PERMITTED FOR MULTIPLE DOMAIN",
-              "✔ 12 MONTHS TECHNICAL SUPPORT",
-              "✔ REMOTE SUPPORT (Installation only)",
-              "✔ FOR PERSONAL PROJECT",
-              "✔ FREE INSTALLATION (CPANEL)",
-              "✔ LIVE MESSENGER CHAT",
-              "✔ FOR COMMERCIAL PRJOECT"
-            ]
-          }
-        }
-      },
       "testimonials": {
         "section_title": "FEEDBACK",
         "section_subtitle": "What’s Our Client Say <span>About Us<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
@@ -381,7 +329,7 @@
         ]
       },
       "short_banner": {
-        "section_bg": "",
+        "section_bg": "https://cdn.discordapp.com/attachments/910838764799148082/991199373700644924/bg1.png",
         "section_title": "200+ Customers use our maildoll. Try it now!",
         "btn_txt": "view more",
         "btn_link": "https://maildoll.com/"
@@ -394,8 +342,8 @@
         "title": "Build your   <span class='sft-color-primary'>Restaurant</span> software with Khadyo.",
         "subtitle": "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
         "logo": "https://cdn.discordapp.com/attachments/910838764799148082/990471649721729094/logo.png",
-        "demo_link": "https://demo.maildoll.com",
-        "envato_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+        "demo_link": "https://demo.khadyo.com",
+        "envato_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
         "price": "$39",
         "total_clients": "350+",
         "theme": "khadyo-wrapper",
@@ -403,9 +351,9 @@
         "hero_img": "https://cdn.discordapp.com/attachments/910838764799148082/990472916971950130/hero_img.png"
       },
       "screenshots": [
-        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
-        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png",
-        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png"
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/khadyo.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/khadyo.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/khadyo.png"
       ],
       "features": {
         "section_title": "Features",
@@ -500,11 +448,13 @@
         ]
       },
       "banner_docs": {
-        "title": "Maildoll Online Documentation",
-        "subtitle": "Send us your idea, it may appear on maildoll in the next update!",
+        "title": "khadyo Online Documentation",
+        "subtitle": "Send us your idea, it may appear on khadyo in the next update!",
         "docs_link": "http://khadyo.softtech-it.com/"
       },
       "responsive_device": {
+        "section_bg": "/img/clms/responsive.png",
+        "section_title": "Instantly Improve Conversions by 120% in a day",
         "lists": {
           "list_1": {
             "title": "step 1",
@@ -579,7 +529,7 @@
             "plan_price": "$97",
             "subtitle": "Great for Individial Person",
             "foo_btn_txt": "sign up",
-            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_btn_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
             "foo_subtitle": "Get your 30 day free trial",
             "fea_availability": [
               "/deski/images/icon/154.svg",
@@ -595,7 +545,7 @@
             "plan_price": "$199",
             "subtitle": "Great for Startup",
             "foo_btn_txt": "sign up",
-            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_btn_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
             "foo_subtitle": "Get your 30 day free trial",
             "fea_availability": [
               "/deski/images/icon/154.svg",
@@ -611,7 +561,7 @@
             "plan_price": "$299",
             "subtitle": "Great for Large Business",
             "foo_btn_txt": "sign up",
-            "foo_btn_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+            "foo_btn_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
             "foo_subtitle": "Get your 30 day free trial",
             "fea_availability": [
               "/deski/images/icon/155.svg",
@@ -623,60 +573,6 @@
             ]
           }
         ]
-      },
-      "pricing_1": {
-        "section_title": "OUR PRICING",
-        "section_subtitle": "Unbeatable prices, no contracts, simple & easy",
-        "lists": {
-          "regular license": {
-            "title": "Regular License",
-            "subtitle": "per license/lifetime",
-            "price": "$39",
-            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
-            "features": [
-              "✔ LIFETIME UPDATE",
-              "✔ PERMITTED FOR 1 DOMAIN",
-              "✔ 6 MONTHS TECHNICAL SUPPORT",
-              "✔ REMOTE SUPPORT (Installation only)",
-              "✔ FOR PERSONAL PROJECT",
-              "✔ FREE INSTALLATION (CPANEL)",
-              "✔ LIVE MESSENGER CHAT",
-              "✗ FOR COMMERCIAL PRJOECT"
-            ]
-          },
-          "extended license": {
-            "title": "Extended License",
-            "subtitle": "per license/lifetime",
-            "price": "$199",
-            "purchase_link": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
-            "features": [
-              "✔ LIFETIME UPDATE",
-              "✔ PERMITTED FOR MULTIPLE DOMAIN",
-              "✔ 12 MONTHS TECHNICAL SUPPORT",
-              "✔ REMOTE SUPPORT (Installation only)",
-              "✔ FOR PERSONAL PROJECT",
-              "✔ FREE INSTALLATION (CPANEL)",
-              "✔ LIVE MESSENGER CHAT",
-              "✔ FOR COMMERCIAL PRJOECT"
-            ]
-          },
-          "customization": {
-            "title": "Customization",
-            "subtitle": "on demand of task",
-            "price": "Contact us",
-            "purchase_link": "http://softtechitsupport.com",
-            "features": [
-              "✔ LIFETIME UPDATE",
-              "✔ PERMITTED FOR MULTIPLE DOMAIN",
-              "✔ 12 MONTHS TECHNICAL SUPPORT",
-              "✔ REMOTE SUPPORT (Installation only)",
-              "✔ FOR PERSONAL PROJECT",
-              "✔ FREE INSTALLATION (CPANEL)",
-              "✔ LIVE MESSENGER CHAT",
-              "✔ FOR COMMERCIAL PRJOECT"
-            ]
-          }
-        }
       },
       "testimonials": {
         "section_title": "FEEDBACK",
@@ -698,6 +594,18 @@
           "list_3": {
             "img": "/deski/images/logo/logo-8.png",
             "name": "Martin Jonas",
+            "desig": "CFO GreenValley",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_4": {
+            "img": "/deski/images/logo/logo-8.png",
+            "name": "Labib Hossain",
+            "desig": "CEO Soft",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_5": {
+            "img": "/deski/images/logo/logo-8.png",
+            "name": "Andrew rasel",
             "desig": "CFO GreenValley",
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
@@ -745,10 +653,334 @@
         ]
       },
       "short_banner": {
-        "section_bg": "https://cdn.discordapp.com/attachments/910838764799148082/991199373700644924/bg1.png",
-        "section_title": "200+ Customers use our maildoll. Try it now!",
+        "section_bg": "https://cdn.discordapp.com/attachments/910838764799148082/991217539193507901/khadyo1.png",
+        "section_title": "200+ Customers use our khadyo. Try it now!",
         "btn_txt": "view more",
-        "btn_link": "https://maildoll.com/"
+        "btn_link": "https://khadyo.com/"
+      }
+    }
+  ],
+  "course-lms": [
+    {
+      "header": {
+        "title": "Grow Your Skills to Advance Your Career Path.",
+        "subtitle": "Strong and beautiful, just like software. Software  will solve all of your troubles. Let's do this together. You're not just hiring a software company, you're hiring a team.",
+        "logo": "https://demo.courselms.com/public/uploads/site/header.png",
+        "demo_link": "https://demo.khadyo.com",
+        "envato_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
+        "price": "$39",
+        "total_clients": "350+",
+        "theme": "course-lms",
+        "hero_bg": "/img/clms/hero-bg.png",
+        "hero_img": "/img/clms/hero-img.png"
+      },
+      "screenshots": [
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/khadyo.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/khadyo.png",
+        "https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/khadyo.png"
+      ],
+      "features": {
+        "section_title": "Features",
+        "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
+        "lists": [
+          {
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/1.mp4"
+          },
+          {
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/steps/2.mp4"
+          },
+          {
+            "title": "step 3",
+            "subtitle": "Three Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/3.mp4"
+          },
+          {
+            "title": "step 4",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          }
+        ]
+      },
+      "instructional_vdo": {
+        "section_title": "Features",
+        "section_subtitle": "Explore advanced video editing features that only professionals have access to!",
+        "lists": [
+          {
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/1.mp4"
+          },
+          {
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/steps/2.mp4"
+          },
+          {
+            "title": "step 3",
+            "subtitle": "Three Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/3.mp4"
+          },
+          {
+            "title": "step 4",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 5",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 6",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 7",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 8",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 9",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 10",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 11",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          },
+          {
+            "title": "step 12",
+            "subtitle": "Four Go to and write your store’s name ",
+            "url": "/img/maildoll/steps/4.mp4"
+          }
+        ]
+      },
+      "banner_docs": {
+        "title": "khadyo Online Documentation",
+        "subtitle": "Send us your idea, it may appear on khadyo in the next update!",
+        "docs_link": "http://khadyo.softtech-it.com/"
+      },
+      "responsive_device": {
+        "section_bg": "/img/clms/responsive.png",
+        "section_title": "Instantly Improve Conversions by 120% in a day",
+        "lists": {
+          "list_1": {
+            "title": "step 1",
+            "subtitle": " One Go to and write your store’s name ",
+            "url": "/img/maildoll/responsive/mobile.mp4"
+          },
+          "list_2": {
+            "title": "step 2",
+            "subtitle": "Two Go to and write your store’s name",
+            "url": "/img/maildoll/responsive/desktop.mp4"
+          }
+        }
+      },
+      "features_two": {
+        "section_title": "The Ultimate Solution with Exclusive Apps",
+        "lists": [
+          {
+            "title": "USER GUIDES",
+            "subtitle": " Docs for your APIs, products, FAQs and user guides,",
+            "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
+            "url": "/deski/images/assets/ils_11.svg"
+          },
+          {
+            "title": "COMBINE IDEA",
+            "subtitle": "A place to think and track ideas for you & your team",
+            "para": "With deksi docs, you can write, edit, let it collaborate wherever you are lorem dumy text introduction.",
+            "url": "/deski/images/assets/ils_12.svg"
+          }
+        ]
+      },
+      "tab_video": [
+        {
+          "nav_id": "nav-one",
+          "title": "install on server",
+          "url": "https://www.youtube.com/embed/pBWLyEnmza4"
+        },
+        {
+          "nav_id": "nav-two",
+          "title": "install on localhost",
+          "url": "https://www.youtube.com/embed/Al037W-jFxQ"
+        },
+        {
+          "nav_id": "nav-three",
+          "title": "upload file",
+          "url": "https://www.youtube.com/embed/mqUa9wZy_SY"
+        },
+        {
+          "nav_id": "nav-four",
+          "title": "database",
+          "url": "https://www.youtube.com/embed/kS-rOxyKizo"
+        },
+        {
+          "nav_id": "nav-five",
+          "title": "pos",
+          "url": "https://www.youtube.com/embed/jE1k7JLykvY"
+        }
+      ],
+      "pricing": {
+        "section_title": "<span>Get your plan<img src='/deski/images/shape/line-shape-13.svg'alt=''/></span>",
+        "section_subtitle": "Get access to the largest library of legal forms and easily integrate deski into your apps",
+        "fea_names": [
+          "Send documents for eSigning",
+          "Multiple User",
+          "Refund",
+          "Bulk invite to sign",
+          "Live Chat",
+          "Send invite via Link"
+        ],
+        "plans": [
+          {
+            "plan_name": "silver plan",
+            "plan_price": "$97",
+            "subtitle": "Great for Individial Person",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          },
+          {
+            "plan_name": "gold plan",
+            "plan_price": "$199",
+            "subtitle": "Great for Startup",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/154.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          },
+          {
+            "plan_name": "business plan",
+            "plan_price": "$299",
+            "subtitle": "Great for Large Business",
+            "foo_btn_txt": "sign up",
+            "foo_btn_link": "https://codecanyon.net/item/khadyo-email-sms-marketing-application/30467920",
+            "foo_subtitle": "Get your 30 day free trial",
+            "fea_availability": [
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg",
+              "/deski/images/icon/155.svg"
+            ]
+          }
+        ]
+      },
+      "testimonials": {
+        "section_title": "FEEDBACK",
+        "section_subtitle": "What’s Our Client Say <span>About Us<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
+        "section_bg": "https://cdn.discordapp.com/attachments/800993798670647326/990943956734984232/bg-shape.png",
+        "lists": {
+          "list_1": {
+            "img": "/deski/images/logo/logo-8.png",
+            "name": "Martin Jonas",
+            "desig": "Founder CreativeGigs",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_2": {
+            "img": "/deski/images/logo/logo-8.png",
+            "name": "Prince",
+            "desig": "CEO Soft",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_3": {
+            "img": "/deski/images/logo/logo-8.png",
+            "name": "Martin Jonas",
+            "desig": "CFO GreenValley",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_4": {
+            "img": "/deski/images/logo/logo-8.png",
+            "name": "Labib Hossain",
+            "desig": "CEO Soft",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          "list_5": {
+            "img": "/deski/images/logo/logo-8.png",
+            "name": "Andrew rasel",
+            "desig": "CFO GreenValley",
+            "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      },
+      "faq": {
+        "section_title": "FAQ’s",
+        "section_subtitle": "Questions & Answers <span>Answers<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
+        "section_bg": "https://cdn.discordapp.com/attachments/800993798670647326/990948239052247080/FAQ-banner.png",
+        "accordion_list_one": [
+          {
+            "title": "How the affiliate programe works?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "How  to delete my account?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": " How to invite people with refferel link?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "Is ios app available for the iphone?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          }
+        ],
+        "accordion_list_two": [
+          {
+            "title": "How the affiliate programe works?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "How  to delete my account?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": " How to invite people with refferel link?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "Is ios app available for the iphone?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          }
+        ]
+      },
+      "short_banner": {
+        "section_bg": "https://cdn.discordapp.com/attachments/910838764799148082/991217539193507901/khadyo1.png",
+        "section_title": "200+ Customers use our khadyo. Try it now!",
+        "btn_txt": "view more",
+        "btn_link": "https://khadyo.com/"
       }
     }
   ]
