@@ -317,6 +317,7 @@
       "testimonials": {
         "section_title": "FEEDBACK",
         "section_subtitle": "What’s Our Client Say <span>About Us<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
+        "section_bg": "https://cdn.discordapp.com/attachments/800993798670647326/990943956734984232/bg-shape.png",
         "lists": {
           "list_1": {
             "img": "/deski/images/logo/logo-8.png",
@@ -337,6 +338,53 @@
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
         }
+      },
+      "faq": {
+        "section_title": "FAQ’s",
+        "section_subtitle": "Questions & Answers <span>Answers<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
+        "section_bg": "https://cdn.discordapp.com/attachments/800993798670647326/990948239052247080/FAQ-banner.png",
+        "accordion_list_one": [
+          {
+            "title": "How the affiliate programe works?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "How  to delete my account?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": " How to invite people with refferel link?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "Is ios app available for the iphone?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          }
+        ],
+        "accordion_list_two": [
+          {
+            "title": "How the affiliate programe works?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "How  to delete my account?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": " How to invite people with refferel link?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "Is ios app available for the iphone?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          }
+        ]
+      },
+      "short_banner": {
+        "section_bg": "",
+        "section_title": "200+ Customers use our maildoll. Try it now!",
+        "btn_txt": "view more",
+        "btn_link": "https://maildoll.com/"
       }
     }
   ],
@@ -633,6 +681,7 @@
       "testimonials": {
         "section_title": "FEEDBACK",
         "section_subtitle": "What’s Our Client Say <span>About Us<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
+        "section_bg": "https://cdn.discordapp.com/attachments/800993798670647326/990943956734984232/bg-shape.png",
         "lists": {
           "list_1": {
             "img": "/deski/images/logo/logo-8.png",
@@ -653,6 +702,53 @@
             "description": "Lorem ipsum dolor sit amet dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
         }
+      },
+      "faq": {
+        "section_title": "FAQ’s",
+        "section_subtitle": "Questions & Answers <span>Answers<img src='/deski/images/shape/line-shape-2.svg' alt=''/></span>",
+        "section_bg": "https://cdn.discordapp.com/attachments/800993798670647326/990948239052247080/FAQ-banner.png",
+        "accordion_list_one": [
+          {
+            "title": "How the affiliate programe works?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "How  to delete my account?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": " How to invite people with refferel link?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "Is ios app available for the iphone?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          }
+        ],
+        "accordion_list_two": [
+          {
+            "title": "How the affiliate programe works?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "How  to delete my account?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": " How to invite people with refferel link?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          },
+          {
+            "title": "Is ios app available for the iphone?",
+            "description": "mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesar Et is vero incorrupte eos deserunt quaeren."
+          }
+        ]
+      },
+      "short_banner": {
+        "section_bg": "https://cdn.discordapp.com/attachments/910838764799148082/991199373700644924/bg1.png",
+        "section_title": "200+ Customers use our maildoll. Try it now!",
+        "btn_txt": "view more",
+        "btn_link": "https://maildoll.com/"
       }
     }
   ]

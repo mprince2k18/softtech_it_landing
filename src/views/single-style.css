@@ -45,6 +45,10 @@ border: 1px solid transparent;
 .logo {
     width: 120px
 }
+.client-feedback-slider-two,.faq-classic.with-bg,.fancy-short-banner-four {
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
 /***************************************************************
  *
  *  maildol  styles 

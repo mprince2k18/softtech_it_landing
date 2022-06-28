@@ -1,5 +1,5 @@
 <template>
-  <div class="main-page-wrapper font-gordita" :class="theme">
+  <div class="main-page-wrapper" :class="theme">
     <!-- 
 			=============================================
 				Theme Main Menu
@@ -296,15 +296,10 @@
 				Client Feedback Slider Two
 			=====================================================
 			-->
-    <div class="client-feedback-slider-two mt-180 md-mt-100">
-      <img src="/deski/imagesshape/78.svg" alt="" class="shapes shape-one" />
-      <img src="/deski/imagesshape/79.svg" alt="" class="shapes shape-two" />
-      <img src="/deski/imagesshape/80.svg" alt="" class="shapes shape-three" />
-      <img src="/deski/imagesshape/81.svg" alt="" class="shapes shape-four" />
-      <img src="/deski/imagesshape/82.svg" alt="" class="shapes shape-five" />
-      <img src="/deski/imagesshape/83.svg" alt="" class="shapes shape-six" />
-      <img src="/deski/imagesshape/84.svg" alt="" class="shapes shape-seven" />
-      <img src="/deski/imagesshape/85.svg" alt="" class="shapes shape-eight" />
+    <div
+      class="client-feedback-slider-two mt-180 md-mt-100"
+      :style="{ 'background-image': 'url(' + testimonial.section_bg + ')' }"
+    >
       <div class="container">
         <div class="title-style-four text-center mb-100 md-mb-60">
           <div class="row">
@@ -455,177 +450,85 @@
 				Faq Classic
 			=====================================================
 			-->
-    <div class="faq-classic with-bg">
-      <img src="deski/images/shape/86.svg" alt="" class="shapes shape-one" />
-      <img src="deski/images/shape/87.svg" alt="" class="shapes shape-two" />
-      <img src="deski/images/shape/88.svg" alt="" class="shapes shape-three" />
-      <img src="deski/images/shape/89.svg" alt="" class="shapes shape-four" />
-      <img src="deski/images/shape/90.svg" alt="" class="shapes shape-five" />
-      <img src="deski/images/shape/91.svg" alt="" class="shapes shape-six" />
+    <div
+      class="faq-classic with-bg"
+      :style="{ 'background-image': 'url(' + faq.section_bg + ')' }"
+    >
       <div class="container">
         <div class="title-style-four text-center mb-100 md-mb-70">
           <div class="row">
             <div class="col-lg-7 m-auto">
-              <h6>FAQ’s</h6>
-              <h2>
-                <span
-                  >Questions & Answers<img
-                    src="deski/images/shape/line-shape-2.svg"
-                    alt=""
-                /></span>
-              </h2>
+              <h6>{{ faq.section_title }}</h6>
+              <h2 v-html="faq.section_subtitle"></h2>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-            <!-- ================== FAQ Panel ================ -->
-            <div class="accordion" id="accordion-faq">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">
-                      How the affiliate programe works?
+            <div class="accordion" id="faqAccordionOne">
+              <div
+                class="card"
+                v-for="(card, index) in faq.accordion_list_one"
+                :key="index"
+              >
+                <div class="card-header" :id="'heading' + index">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left"
+                      type="button"
+                      data-toggle="collapse"
+                      :data-target="'#collapseOne' + index"
+                      aria-expanded="true"
+                      :aria-controls="'collapseOne' + index"
+                    >
+                      {{ card.title }}
                     </button>
-                  </h5>
+                  </h2>
                 </div>
-                <div id="collapseOne" class="collapse">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">How delete my account?</button>
-                  </h5>
-                </div>
-                <div id="collapseThree" class="collapse">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingFour">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">
-                      Ho to invite people with refferel link?
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseFour" class="collapse">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingFive">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">
-                      Is ios app available for the iphone?
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseFive" class="collapse">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
+
+                <div
+                  :id="'collapseOne' + index"
+                  class="collapse"
+                  :class="index == 0 ? 'show' : ''"
+                  :aria-labelledby="'heading' + index"
+                  data-parent="#faqAccordionOne"
+                >
+                  <div class="card-body" v-html="card.description"></div>
                 </div>
               </div>
             </div>
           </div>
-
           <div class="col-lg-6">
-            <!-- ================== FAQ Panel ================ -->
-            <div id="accordiontwo">
-              <div class="card">
-                <div class="card-header" id="headingOne2">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">
-                      How the affiliate programe works?
+            <div class="accordion" id="faqAccordionTwo">
+              <div
+                class="card"
+                v-for="(card, index) in faq.accordion_list_two"
+                :key="index"
+              >
+                <div class="card-header" :id="'heading' + index">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left"
+                      type="button"
+                      data-toggle="collapse"
+                      :data-target="'#collapseTwo' + index"
+                      aria-expanded="true"
+                      :aria-controls="'collapseTwo' + index"
+                    >
+                      {{ card.title }}
                     </button>
-                  </h5>
+                  </h2>
                 </div>
-                <div id="collapseOne2" class="collapse">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingTwo2">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">
-                      How to create customer panel?
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseTwo2" class="collapse show">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingThree2">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">How delete my account?</button>
-                  </h5>
-                </div>
-                <div id="collapseThree2" class="collapse">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingFour2">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link">
-                      Ho to invite people with refferel link?
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseFour2" class="collapse">
-                  <div class="card-body">
-                    <p>
-                      mea case duis tollit et. Etiam nusquam set minium eu sea,
-                      ei tale paulo elab. Noluisse mnesarch Et is vero
-                      incorrupte eos deserunt quaeren.
-                    </p>
-                  </div>
+
+                <div
+                  :id="'collapseTwo' + index"
+                  class="collapse"
+                  :class="index == 0 ? 'show' : ''"
+                  :aria-labelledby="'heading' + index"
+                  data-parent="#faqAccordionTwo"
+                >
+                  <div class="card-body" v-html="card.description"></div>
                 </div>
               </div>
             </div>
@@ -640,15 +543,26 @@
 			=====================================================
 			-->
     <div class="fancy-short-banner-four">
-      <div class="container">
+      <div
+        class="container"
+        :style="{
+          'background-image': 'url(' + short_banner.section_bg + ')',
+          'background-size': '100%',
+          'background-repeat': 'no-repeat',
+        }"
+      >
         <div class="bg-wrapper bg-purple rounded-lg">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-6">
               <div class="title text-center">
                 <h3 class="text-white">
-                  200+ Customers use our maildoll. Try it now!
+                  {{ short_banner.section_title }}
                 </h3>
-                <button class="white-purple-btn mt-4">view more</button>
+                <a
+                  :href="short_banner.btn_link"
+                  class="white-purple-btn mt-4"
+                  >{{ short_banner.btn_txt }}</a
+                >
               </div>
               <!-- /.title-style-one -->
             </div>
@@ -674,11 +588,7 @@
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <a href="index-doc.html" class="logo"
-                ><img
-                  src="https://cdn.discordapp.com/attachments/691498717748002867/986154178177028146/maildoll.png"
-                  alt=""
-              /></a>
+              <img class="logo" :src="header.logo" :alt="header.title" />
             </div>
             <!-- /.about-widget -->
             <div
@@ -840,6 +750,10 @@ export default {
       // instructional video
       instructional_vdo:
         DEMO_JSON[this.$route.params.software][0].instructional_vdo,
+      // faq
+      faq: DEMO_JSON[this.$route.params.software][0].faq,
+      // short_banner
+      short_banner: DEMO_JSON[this.$route.params.software][0].short_banner,
 
       // header menu
       header: [],
